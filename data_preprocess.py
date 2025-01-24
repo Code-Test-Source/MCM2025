@@ -27,11 +27,32 @@ hosts = read_csv(hosts_file_path)
 medals = read_csv(medals_file_path)
 programs = read_csv(programs_file_path)
 
-# 检查缺失值
-print(medals.isnull().sum())
+# 检查所有数据文件缺失值并以零填充
+print(athletes.isnull().sum())
+athletes.fillna(0, inplace=True)
 
-# 填充或删除缺失值
-medals.fillna(0, inplace=True)  # 用0填充缺失值
+print(hosts.isnull().sum())
+hosts.fillna(0, inplace=True)
+
+print(programs.isnull().sum())
+programs.fillna(0, inplace=True)
+
+print(medals.isnull().sum())
+medals.fillna(0, inplace=True)
+
+# 检查所有数据文件重复值并删除
+
+print(athletes.duplicated().sum())
+athletes.drop_duplicates(inplace=True)
+
+print(hosts.duplicated().sum())
+hosts.drop_duplicates(inplace=True)
+
+print(programs.duplicated().sum())
+programs.drop_duplicates(inplace=True)
+
+print(medals.duplicated().sum())
+medals.drop_duplicates(inplace=True)
 
 
 # Replace 'Team' with 'Country' in athletes dataset
@@ -78,19 +99,22 @@ ice_sports = ['Figure Skating', 'Ice Hockey']
 programs = programs[~programs['Sport'].isin(ice_sports)]
 athletes = athletes[~athletes['Sport'].isin(ice_sports)]
 
-# 计算历年来奖牌前10的国家及其奖牌数
-top_10_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending=False).head(10)
+# Remove medals from the year 1906（其实他已经帮你去掉好了）
+medals = medals[medals['Year'] != 1906]
 
-# 打印前10的国家及其奖牌数
-print(top_10_countries[['Gold', 'Silver', 'Bronze', 'Total']])
+# 计算历年来奖牌前10的国家及其奖牌数
+top_15_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending=False).head(10)
+
+# 打印前15的国家及其奖牌数
+print(top_15_countries[['Gold', 'Silver', 'Bronze', 'Total']])
 #通过Medal栏非No medal计算运动员奖牌总数
 athletes['Total'] = athletes['Medal'] != 'No medal'
 athletes['Gold'] = athletes['Medal'] == 'Gold'
 athletes['Silver'] = athletes['Medal'] == 'Silver'
 athletes['Bronze'] = athletes['Medal'] == 'Bronze'
 
-# 计算获得奖牌数前十的运动员以及他们的金银铜牌数
-top_10_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(10)
+# 计算获得奖牌数前15的运动员以及他们的金银铜牌数
+top_15_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(15)
 
 # 打印前10的运动员及其奖牌数
-print(top_10_athletes[['Gold', 'Silver', 'Bronze', 'Total']])
+print(top_15_athletes[['Gold', 'Silver', 'Bronze', 'Total']])
