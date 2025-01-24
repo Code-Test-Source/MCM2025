@@ -1,0 +1,47 @@
+\documentclass{mcmthesis}
+\mcmsetup{CTeX = false,    % 使用 CTeX 套装时，设置为 true
+          tcn = {2515374}, problem = \textcolor{red}{C},
+          sheet = true, titleinsheet = true, keywordsinsheet = true,
+          titlepage = false, abstract = false}
+
+\usepackage{newtxtext}     % \usepackage{palatino}
+\usepackage[backend=bibtex]{biblatex}   % for RStudio Complie
+\addbibresource{citation.bib}
+
+\usepackage{tocloft}
+\setlength{\cftbeforesecskip}{6pt}
+\renewcommand{\contentsname}{\hspace*{\fill}\Large\bfseries Contents \hspace*{\fill}}
+
+\title{A Good Title}
+
+\begin{document}
+       
+\input{include/summary}
+
+\maketitle
+\tableofcontents 
+\thispagestyle{empty}   
+\newpage
+
+\input{include/introduction}
+\input{include/assumption}
+\input{include/notation}
+\input{include/overview}
+\input{include/answer0}%到时候对多个问题进行分别回答，answer0只是一个模板
+\input{include/conclusion}
+\input{citation}
+
+\newpage
+
+\input{include/memo}
+\input{include/code}
+
+\newpage
+
+\input{include/ai}
+
+% 重置页码
+\clearpage
+\setcounter{page}{\value{lastpage}}
+
+\end{document}

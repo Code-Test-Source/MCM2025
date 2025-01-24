@@ -1,0 +1,185 @@
+\section{Sub-model I : Adding Water Continuously}
+
+We first establish the sub-model based on the condition that a person add water continuously to reheat the bathing water. Then we use Computational Fluid Dynamics (CFD) to simulate the change of water temperature in the bathtub. At last, we evaluate the model with the criteria which have been defined before.
+
+\subsection{Model Establishment}
+
+Since we try to keep the temperature of the hot water in bathtub to be even, we have to derive the amount of inflow water and the energy dissipated by the hot water into the air.
+
+We derive the basic convection heat transfer control equations based on the former scientists’ achievement. Then, we define the mean temperature of bath water. Afterwards, we determine two types of heat transfer: the boundary heat transfer and the evaporation heat transfer. Combining thermodynamic formulas, we derive calculating results. Via Fluent software, we get simulation results.
+
+\subsubsection{Control Equations and Boundary Conditions}
+
+According to thermodynamics knowledge, we recall on basic convection
+heat transfer control equations in rectangular coordinate system. Those
+equations show the relationship of the temperature of the bathtub water in space.
+
+We assume the hot water in the bathtub as a cube. Then we put it into a
+rectangular coordinate system. The length, width, and height of it is $a,\, b$ and $c$.
+
+\begin{figure}[h] 
+\centering
+\includegraphics[width=8cm]{fig2.jpg}
+\caption{Modeling process} \label{fig2}
+\end{figure}
+
+In the basis of this, we introduce the following equations \cite{5}:
+
+\begin{itemize}
+\item {\bf Continuity equation:}
+\end{itemize}
+
+\begin{equation} \label{eq1}
+\frac{\partial u}{\partial x} + \frac{\partial v}{\partial y} +\frac{\partial w}{\partial z} =0
+\end{equation}
+
+\noindent where the first component is the change of fluid mass along the $X$-ray. The second component is the change of fluid mass along the $Y$-ray. And the third component is the change of fluid mass along the $Z$-ray. The sum of the change in mass along those three directions is zero.
+
+\begin{itemize}
+\item {\bf Moment differential equation (N-S equations):}
+\end{itemize}
+
+\begin{equation} \label{eq2}
+\left\{
+\begin{array}{l} \!\!
+\rho \Big(u \dfrac{\partial u}{\partial x} + v \dfrac{\partial u}{\partial y} + w\dfrac{\partial u}{\partial z} \Big) = -\dfrac{\partial p}{\partial x} + \eta \Big(\dfrac{\partial^2 u}{\partial x^2} + \dfrac{\partial^2 u}{\partial y^2} + \dfrac{\partial^2 u}{\partial z^2} \Big) \\[0.3cm]
+\rho \Big(u \dfrac{\partial v}{\partial x} + v \dfrac{\partial v}{\partial y} + w\dfrac{\partial v}{\partial z} \Big) = -\dfrac{\partial p}{\partial y} + \eta \Big(\dfrac{\partial^2 v}{\partial x^2} + \dfrac{\partial^2 v}{\partial y^2} + \dfrac{\partial^2 v}{\partial z^2} \Big) \\[0.3cm]
+\rho \Big(u \dfrac{\partial w}{\partial x} + v \dfrac{\partial w}{\partial y} + w\dfrac{\partial w}{\partial z} \Big) = -g-\dfrac{\partial p}{\partial z} + \eta \Big(\dfrac{\partial^2 w}{\partial x^2} + \dfrac{\partial^2 w}{\partial y^2} + \dfrac{\partial^2 w}{\partial z^2} \Big)  
+\end{array}
+\right.
+\end{equation}
+
+\begin{itemize}
+\item {\bf Energy differential equation:}
+\end{itemize}
+
+\begin{equation} \label{eq3}
+\rho c_p \Big( u\frac{\partial t}{\partial x} + v\frac{\partial t}{\partial y} + w\frac{\partial t}{\partial z} \Big) = \lambda \Big(\frac{\partial^2 t}{\partial x^2} + \frac{\partial^2 t}{\partial y^2} + \frac{\partial^2 t}{\partial z^2} \Big)
+\end{equation}
+
+\noindent where the left three components are convection terms while the right three components are conduction terms.
+
+By Equation \eqref{eq3}, we have ......
+
+......
+
+On the right surface in Fig. \ref{fig2}, the water also transfers heat firstly with bathtub inner surfaces and then the heat comes into air. The boundary condition here is ......
+
+\subsubsection{Definition of the Mean Temperature}
+
+......
+
+\subsubsection{Determination of Heat Transfer Capacity}
+
+......
+
+\section{Sub-model II: Adding Water Discontinuously}
+
+In order to establish the unsteady sub-model, we recall on the working principle of air conditioners. The heating performance of air conditions consist of two processes: heating and standby. After the user set a temperature, the air conditioner will begin to heat until the expected temperature is reached. Then it will go standby. When the temperature get below the expected temperature, the air conditioner begin to work again. As it works in this circle, the temperature remains the expected one.
+
+Inspired by this, we divide the bathtub working into two processes: adding
+hot water until the expected temperature is reached, then keeping this
+condition for a while unless the temperature is lower than a specific value. Iterating this circle ceaselessly will ensure the temperature kept relatively stable.
+
+\subsection{Heating Model}
+
+\subsubsection{Control Equations and Boundary Conditions}
+
+\subsubsection{Determination of Inflow Time and Amount}
+
+\subsection{Standby Model}
+
+\subsection{Results}
+
+\quad~ We first give the value of parameters based on others’ studies. Then we get the calculation results and simulating results via those data.
+
+\subsubsection{Determination of Parameters}
+
+After establishing the model, we have to determine the value of some
+important parameters.
+
+As scholar Beum Kim points out, the optimal temperature for bath is
+between 41 and 45$^\circ$C [1]. Meanwhile, according to Shimodozono's study, 41$^\circ$C warm water bath is the perfect choice for individual health [2]. So it is reasonable for us to focus on $41^\circ$C $\sim 45^\circ$C. Because adding hot water continuously is a steady process, so the mean temperature of bath water is supposed to be constant. We value the temperature of inflow and outflow water with the maximum and minimum temperature respectively.
+
+The values of all parameters needed are shown as follows:
+
+.....
+
+\subsubsection{Calculating Results}
+
+Putting the above value of parameters into the equations we derived before, we can get the some data as follows:
+
+%%普通表格
+\begin{table}[h]  %h表示固定在当前位置
+\centering        %设置居中
+\caption{The calculating results}  %表标题
+\vspace{0.15cm}
+\label{tab2}                       %设置表的引用标签
+\begin{tabular}{|c|c|c|}  %3个c表示3列, |可选, 表示绘制各列间的竖线
+\hline                    %画横线
+Variables & Values & Unit     \\ \hline  %各列间用&隔开
+$A_1$     & 1.05   &   $m^2$  \\ \hline
+$A_2$     & 2.24   &   $m^2$  \\ \hline
+$\Phi_1$  & 189.00 &   $W$   \\ \hline
+$\Phi_2$  & 43.47  &   $W$   \\ \hline
+$\Phi$    & 232.47 &   $W$   \\ \hline
+$q_m$     & 0.014  &   $g/s$ \\ \hline
+\end{tabular}
+\end{table}
+
+From Table \ref{tab2}, ......
+
+......
+
+\section{Correction and Contrast of Sub-Models}
+
+After establishing two basic sub-models, we have to correct them in consideration of evaporation heat transfer. Then we define two evaluation criteria to compare the two sub-models in order to determine the optimal bath strategy.
+
+\subsection{Correction with Evaporation Heat Transfer}
+
+Someone may confuse about the above results: why the mass flow in the first sub-model is so small? Why the standby time is so long? Actually, the above two sub-models are based on ideal conditions without consideration of the change of boundary conditions, the motions made by the person in bathtub and the evaporation of bath water, etc. The influence of personal motions will be discussed later. Here we introducing the evaporation of bath water to correct sub-models.
+
+\subsection{Contrast of Two Sub-Models}
+
+Firstly we define two evaluation criteria. Then we contrast the two submodels via these two criteria. Thus we can derive the best strategy for the person in the bathtub to adopt.
+
+\section{Model Analysis and Sensitivity Analysis}
+
+\subsection{The Influence of Different Bathtubs}
+
+Definitely, the difference in shape and volume of the tub affects the
+convection heat transfer. Examining the relationship between them can help
+people choose optimal bathtubs.
+
+\subsubsection{Different Volumes of Bathtubs}
+
+In reality, a cup of water will be cooled down rapidly. However, it takes quite long time for a bucket of water to become cool. That is because their volume is different and the specific heat of water is very large. So that the decrease of temperature is not obvious if the volume of water is huge. That also explains why it takes 45 min for 320 L water to be cooled by 1$^\circ$C.
+
+In order to examine the influence of volume, we analyze our sub-models
+by conducting sensitivity Analysis to them.
+
+We assume the initial volume to be 280 L and change it by $\pm 5$\%, $\pm 8$\%, $\pm 12$\% and $\pm 15$\%. With the aid of sub-models we established before, the variation of some parameters turns out to be as follows
+
+%%三线表
+\begin{table}[h] %h表示固定在当前位置
+\centering  %设置居中
+\caption{Variation of some parameters}  %表标题
+\label{tab7} %设置表的引用标签
+\begin{tabular}{ccccccc} %7个c表示7列, c表示每列居中对齐, 还有l和r可选
+\toprule  %画顶端横线
+$V$      & $A_1$   & $A_2$   & $T_2$    & $q_{m1}$ & $q_{m2}$ & $\Phi_q$ \\
+\midrule  %画中间横线
+-15.00\% & -5.06\% & -9.31\% & -12.67\% & -2.67\%  & -14.14\% & -5.80\% \\
+-12.00\% & -4.04\% & -7.43\% & -10.09\% & -2.13\%  & -11.31\% & -4.63\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+-8.00\%  & -2.68\% & -4.94\% & -6.68\%  & -1.41\%  & -7.54\%  & -3.07\% \\
+\bottomrule  %画底部横线
+\end{tabular}
+\end{table}
