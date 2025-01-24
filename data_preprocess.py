@@ -54,7 +54,23 @@ country_mapping = {
     'Virgin Islands': 'United States',
 }
 
-athletes['Country'] = athletes['Country'].replace(country_mapping)
+noc_mapping = {
+    'URS': 'RUS',
+    'EUA': 'GER',
+    'FRG': 'GER',
+    'GDR': 'GER',
+    'YUG': 'SRB',
+    'TCH': 'CZE',
+    'BOH': 'CZE',
+    'EUN': 'RUS',
+    'SCG': 'SRB',
+    'ANZ': 'AUS',
+    'NBO': 'KEN',
+    'WIF': 'USA',
+    'IOP': 'IOA',
+}
+
+athletes['NOC'] = athletes['NOC'].replace(noc_mapping)
 medals['NOC'] = medals['NOC'].replace(country_mapping)
 
 # Remove ice sports and athletes playing ice sports
@@ -67,3 +83,11 @@ top_10_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending
 
 # 打印前10的国家及其奖牌数
 print(top_10_countries[['Gold', 'Silver', 'Bronze', 'Total']])
+#通过Medal栏非No medal计算运动员奖牌总数
+athletes['Total'] = athletes['Medal'] != 'No medal'
+
+# 计算获得奖牌数前十的运动员
+top_10_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(10)
+
+# 打印前10的运动员及其奖牌数
+print(top_10_athletes[['Total']])
