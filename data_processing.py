@@ -2,11 +2,11 @@ import pandas as pd
 import chardet
 
 # 文件路径
-file_dict_path = r"C:\Users\ASUS\Desktop\MCM\MCM2025\2025_Problem_C_Data\data_dictionary.csv"
-athletes_file_path = r"C:\Users\ASUS\Desktop\MCM\MCM2025\2025_Problem_C_Data\summerOly_athletes.csv"
-hosts_file_path = r"C:\Users\ASUS\Desktop\MCM\MCM2025\2025_Problem_C_Data\summerOly_hosts.csv"
-medals_file_path = r"C:\Users\ASUS\Desktop\MCM\MCM2025\2025_Problem_C_Data\summerOly_medal_counts.csv"
-programs_file_path = r"C:\Users\ASUS\Desktop\MCM\MCM2025\2025_Problem_C_Data\summerOly_programs.csv"
+file_dict_path = r".\2025_Problem_C_Data\data_dictionary.csv"
+athletes_file_path = r".\2025_Problem_C_Data\summerOly_athletes.csv"
+hosts_file_path = r".\2025_Problem_C_Data\summerOly_hosts.csv"
+medals_file_path = r".\2025_Problem_C_Data\summerOly_medal_counts.csv"
+programs_file_path = r".\2025_Problem_C_Data\summerOly_programs.csv"
 
 # 检测文件编码
 def detect_encoding(file_path):
