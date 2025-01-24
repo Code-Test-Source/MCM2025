@@ -85,9 +85,12 @@ top_10_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending
 print(top_10_countries[['Gold', 'Silver', 'Bronze', 'Total']])
 #通过Medal栏非No medal计算运动员奖牌总数
 athletes['Total'] = athletes['Medal'] != 'No medal'
+athletes['Gold'] = athletes['Medal'] == 'Gold'
+athletes['Silver'] = athletes['Medal'] == 'Silver'
+athletes['Bronze'] = athletes['Medal'] == 'Bronze'
 
-# 计算获得奖牌数前十的运动员
+# 计算获得奖牌数前十的运动员以及他们的金银铜牌数
 top_10_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(10)
 
 # 打印前10的运动员及其奖牌数
-print(top_10_athletes[['Total']])
+print(top_10_athletes[['Gold', 'Silver', 'Bronze', 'Total']])
