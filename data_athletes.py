@@ -27,6 +27,20 @@ athletes.rename(columns={'Team': 'Country'}, inplace=True)
 
 # Map old country names to current country names
 
+country_mapping = {
+    'Soviet Union': 'Russia',
+    'West Germany': 'Germany',
+    'East Germany': 'Germany',
+    'Yugoslavia': 'Serbia',
+    'Czechoslovakia': 'Czech Republic',
+    'Bohemia': 'Czech Republic',
+    'Russian Empire': 'Russia',
+    'United Team of Germany': 'Germany',
+    'Unified Team': 'Russia',
+    'Serbia and Montenegro': 'Serbia',
+    'Netherlands Antilles': 'Netherlands',
+    'Virgin Islands': 'United States',
+}
 
 noc_mapping = {
     'URS': 'RUS',
@@ -51,7 +65,7 @@ ice_sports = ['Figure Skating', 'Ice Hockey']
 athletes = athletes[~athletes['Sport'].isin(ice_sports)]
 
 # Calculate the number of participants per country per year
-participants_per_country_year = athletes.groupby(['Year', 'Country']).size().reset_index(name='Participants')
+participants_per_country_year = athletes.groupby(['Year', 'NOC']).size().reset_index(name='Participants')
 print(participants_per_country_year)
 
 # Export participants per country per year to CSV
