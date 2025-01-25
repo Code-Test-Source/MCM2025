@@ -13,6 +13,26 @@ medals_df = pd.read_csv("./2025_Problem_C_Data/summerOly_medal_counts.csv")
 # 数据预处理
 medals_df['HasMedal'] = medals_df['Total'].notna()
 
+
+country_mapping = {
+    'Soviet Union': 'Russia',
+    'West Germany': 'Germany',
+    'East Germany': 'Germany',
+    'Yugoslavia': 'Serbia',
+    'Czechoslovakia': 'Czech Republic',
+    'Bohemia': 'Czech Republic',
+    'Russian Empire': 'Russia',
+    'United Team of Germany': 'Germany',
+    'Unified Team': 'Russia',
+    'Serbia and Montenegro': 'Serbia',
+    'Netherlands Antilles': 'Netherlands',
+    'Virgin Islands': 'United States',
+    'ROC': 'Russia',
+}
+
+
+medals_df['NOC'] = medals_df['NOC'].replace(country_mapping)
+
 # 计算每个国家首次获奖的年份
 first_medals = medals_df[medals_df['HasMedal']].groupby('NOC').agg({
     'Year': 'min',
@@ -23,6 +43,8 @@ first_medals.columns = ['NOC', 'FirstMedalYear', 'FirstTotal']
 # 过滤1896年后首次获奖的国家
 first_medals = first_medals[first_medals['FirstMedalYear'] > 1896].copy()
 print(f"Countries with first medals after 1896: {len(first_medals)}")
+
+first_medals.to_csv("./2025_Problem_C_Data/first_medals.csv", index=False)
 
 # 构建特征
 def extract_features(df, noc, end_year):
@@ -53,6 +75,14 @@ for _, row in first_medals.iterrows():
     if features:
         training_features.append(features)
         training_labels.append(1)
+
+# 添加没有获奖的国家作为负样本
+no_medal_nocs = set(participants_df['NOC']) - set(first_medals['NOC'])
+for noc in no_medal_nocs:
+    features = extract_features(participants_df, noc, 2024)
+    if features:
+        training_features.append(features)
+        training_labels.append(0)
 
 print(f"Training samples created: {len(training_features)}")
 

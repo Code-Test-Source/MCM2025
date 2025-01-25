@@ -53,7 +53,9 @@ country_mapping = {
     'Netherlands Antilles': 'Netherlands',
     'Virgin Islands': 'United States',
     'West Indies Federation': 'United States',
-    'Russia Olympic Committee': 'Russia',
+    'ROC': 'Russia',
+    'LIB': 'Liberia',
+    'Libya': 'Liberia',
 }
 
 noc_mapping = {
@@ -71,9 +73,11 @@ noc_mapping = {
     'WIF': 'USA',
     'IOP': 'IOA',
     'ROC': 'RUS',
+    'EOR': 'RUS',
 }
 
 country_codes = {
+    'EOR': 'Russia',
     'ROC': 'Russia',
     'AFG': 'Afghanistan',
     'ALB': 'Albania',
@@ -116,7 +120,7 @@ country_codes = {
     'CHN': 'China',
     'CIV': 'Ivory Coast',
     'CMR': 'Cameroon',
-    'COD': 'Democratic Republic of the Congo',
+    'COD': 'Congo',
     'COK': 'Cook Islands',
     'COL': 'Colombia',
     'COM': 'Comoros',
@@ -182,13 +186,14 @@ country_codes = {
     'KUW': 'Kuwait',
     'LAO': 'Laos',
     'LAT': 'Latvia',
-    'LBA': 'Libya',
+    'LBA': 'Lebanon',
     'LBR': 'Liberia',
     'LCA': 'Saint Lucia',
     'LES': 'Lesotho',
     'LIE': 'Liechtenstein',
     'LTU': 'Lithuania',
     'LUX': 'Luxembourg',
+    'LIB': 'Liberia',
     'MAD': 'Madagascar',
     'MAR': 'Morocco',
     'MAS': 'Malaysia',
@@ -237,6 +242,7 @@ country_codes = {
     'SAM': 'Samoa',
     'SEN': 'Senegal',
     'SEY': 'Seychelles',
+    'SGP': 'Singapore',
     'SIN': 'Singapore',
     'SKN': 'Saint Kitts and Nevis',
     'SLE': 'Sierra Leone',
@@ -325,12 +331,15 @@ programs_sum['Year'] = programs_sum['Year'].astype(int)
 # Merge programs_sum with data on Year
 data = pd.merge(data, programs_sum, on='Year', how='left')
 
-data.to_csv('./2025_Problem_C_Data/data.csv')
-
 # Determine if the country is the host for each year
 data['Is_Host'] = data.apply(lambda row: 1 if row['NOC'] in hosts[hosts['Year'] == row['Year']]['NOC'].values else 0, axis=1)
 
 data = data.fillna(0)
+
+data.to_csv('./2025_Problem_C_Data/data.csv')
+
+
+
 
 # Prepare features and target with additional variables
 X = data[['Year', 'Is_Host', 'Num_Athletes', 'Female_Ratio', 'Num_Sports', 'Num_Events','Total_Events','Total_Discipline','Total_Sports']]
