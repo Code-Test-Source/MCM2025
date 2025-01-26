@@ -12,6 +12,8 @@ We also use \textbf{KS test} to ensure the effectiveness of the model.After the 
 What's important is that we add the factor of whether being a host city/country or not in to the training model so that the final result can take this factor into consideration. For example,
 in the coming LA Olympics, the USA is likely to gain more medals due to the \textbf{"hosting effect"}.
 
+\subsection{Result Analysis}
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{./figures/Cor_Matrix.png}
@@ -36,7 +38,7 @@ in the coming LA Olympics, the USA is likely to gain more medals due to the \tex
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{./figures/refer_KS_other.png}
-    \caption{Specific data during training and estimation}
+    \caption{Specific result during training and estimation}
     \label{fig:refer_KS_other}
 \end{figure}
 
@@ -62,3 +64,27 @@ where $\Omega(f_t)$ is the model complexity of the t-th tree, which can be expre
 $\Omega(f_t) = \gamma T + \frac{1}{2} \lambda \sum_{j=1}^T w_j^2$
 
 where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, and $\gamma$ and $\lambda$ are regularization parameters.
+
+\subsection{Prediction of 2028 Los Angeles Olympics}
+\begin{table}[htbp]
+    \centering
+    \caption{Predicted Medal Table of 2028 Los Angeles Olympics}
+    \begin{tabular}{|c|c|c|c|c|c|}
+        \hline
+        Rank & NOC & Gold & Silver & Bronze & Total \\
+        \hline
+        1 & United States & 49 & 46 & 44 & 139 \\
+        2 & China & 38 & 30 & 29 & 97 \\
+        3 & Russia & 28 & 25 & 22 & 75 \\
+        4 & United Kingdom & 27 & 23 & 20 & 70 \\
+        5 & Japan & 22 & 19 & 17 & 58 \\
+        6 & Australia & 17 & 15 & 13 & 45 \\
+        7 & Italy & 15 & 13 & 12 & 40 \\
+        8 & Netherlands & 13 & 12 & 11 & 36 \\
+        9 & France & 14 & 12 & 9 & 35 \\
+        10 & Germany & 15 & 12 & 8 & 35 \\
+        \hline
+    \end{tabular}
+    \label{tab:2028}
+\end{table}
+

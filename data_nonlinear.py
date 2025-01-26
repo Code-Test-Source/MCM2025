@@ -347,10 +347,10 @@ y = data[['Total','Gold','Silver','Bronze']].apply(pd.to_numeric, errors='coerce
 
 
 # Split data
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.19, random_state=42)
 
 # Random Forest model
-rf_model = RandomForestRegressor(n_estimators=100, random_state=42)
+rf_model = RandomForestRegressor(n_estimators=1000, random_state=42)
 rf_model.fit(X_train, y_train)
 rf_predictions = rf_model.predict(X_test)
 
@@ -362,7 +362,7 @@ for i, col in enumerate(['Total', 'Gold', 'Silver', 'Bronze']):
     X_test_rf[f'RF_Predictions_{col}'] = rf_predictions[:, i]
 
 # XGBoost model
-xgb_model = XGBRegressor(n_estimators=100, random_state=42)
+xgb_model = XGBRegressor(n_estimators=1000, random_state=42)
 xgb_model.fit(X_train_rf, y_train)
 xgb_predictions = xgb_model.predict(X_test_rf)
 
@@ -403,7 +403,7 @@ print(f"K-S Test Statistic: {ks_stat}, P-Value: {p_value}")
 # Predict medals for 2028 for all countries
 future_data_all = data[(data['Year'] == 2024)  & (data['NOC'] != 'France') | ((data['Year'] == 2020) & (data['NOC'] == 'France')) | ((data['Year'] == 2016) & (data['NOC'] == 'Russia'))].copy()
 
-future_data_all['Year'] = 2028
+future_data_all['Year'] = 2032
 
 
 # Predict using Random Forest
@@ -441,8 +441,8 @@ fig, ax = plt.subplots(figsize=(12, 8))
 
 # Plot stacked bars for each medal type
 ax.barh(top_10_future_countries['NOC'], top_10_future_countries['Predicted_Gold'], color='gold', label='Gold')
-ax.barh(top_10_future_countries['NOC'], top_10_future_countries['Predicted_Silver'], left=top_10_future_countries['Predicted_Gold'], color='silver', label='Silver')
-ax.barh(top_10_future_countries['NOC'], top_10_future_countries['Predicted_Bronze'], left=top_10_future_countries['Predicted_Gold'] + top_10_future_countries['Predicted_Silver'], color='#cd7f32', label='Bronze')
+ax.barh(top_10_future_countries['NOC'], top_10_future_countries['Predicted_Silver'], left=top_10_future_countries['Predicted_Gold'], color='#c0c0c0', label='Silver')
+ax.barh(top_10_future_countries['NOC'], top_10_future_countries['Predicted_Bronze'], left=top_10_future_countries['Predicted_Gold'] + top_10_future_countries['Predicted_Silver'], color='#c97222', label='Bronze')
 
 # Add data labels
 for i in range(len(top_10_future_countries)):
@@ -452,94 +452,94 @@ for i in range(len(top_10_future_countries)):
 
 plt.xlabel('Number of Medals')
 plt.ylabel('Country')
-plt.title('Top 10 Countries by Predicted Medals in 2028')
+plt.title('Top 10 Countries by Predicted Medals in 2032')
 plt.legend(loc='upper right')
 plt.gca().invert_yaxis()
 plt.show()
 
 
-# Calculate Mean Squared Error and R^2 for Random Forest
-mse_rf = mean_squared_error(y_test, rf_predictions)
-r2_rf = r2_score(y_test, rf_predictions)
+# # Calculate Mean Squared Error and R^2 for Random Forest
+# mse_rf = mean_squared_error(y_test, rf_predictions)
+# r2_rf = r2_score(y_test, rf_predictions)
 
-# Calculate Mean Squared Error and R^2 for XGBoost
-mse_xgb = mean_squared_error(y_test, xgb_predictions)
-r2_xgb = r2_score(y_test, xgb_predictions)
+# # Calculate Mean Squared Error and R^2 for XGBoost
+# mse_xgb = mean_squared_error(y_test, xgb_predictions)
+# r2_xgb = r2_score(y_test, xgb_predictions)
 
-# Print regression metrics
-print(f"Random Forest MSE: {mse_rf}, R^2: {r2_rf}")
-print(f"XGBoost MSE: {mse_xgb}, R^2: {r2_xgb}")
+# # Print regression metrics
+# print(f"Random Forest MSE: {mse_rf}, R^2: {r2_rf}")
+# print(f"XGBoost MSE: {mse_xgb}, R^2: {r2_xgb}")
 
-# Plot predictions vs actual values
-plt.figure()
-plt.scatter(y_test, rf_predictions, color='blue', label='Random Forest Predictions')
-plt.scatter(y_test, xgb_predictions, color='red', label='XGBoost Predictions')
-plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], color='gray', lw=2, linestyle='--')
-plt.xlabel('Actual Values')
-plt.ylabel('Predicted Values')
-plt.title('Predictions vs Actual Values')
-plt.legend(loc='upper left')
-plt.show()
+# # Plot predictions vs actual values
+# plt.figure()
+# plt.scatter(y_test, rf_predictions, color='blue', label='Random Forest Predictions')
+# plt.scatter(y_test, xgb_predictions, color='red', label='XGBoost Predictions')
+# plt.plot([y_test.min(), y_test.max()], [y_test.min(), y_test.max()], color='gray', lw=2, linestyle='--')
+# plt.xlabel('Actual Values')
+# plt.ylabel('Predicted Values')
+# plt.title('Predictions vs Actual Values')
+# plt.legend(loc='upper left')
+# plt.show()
 
-# Plot correlation matrix without 'NOC' column
-plt.figure(figsize=(12, 10))
-correlation_matrix = data.drop(columns=['NOC']).corr()
-sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
-plt.title('Correlation Matrix')
-plt.show()
+# # Plot correlation matrix without 'NOC' column
+# plt.figure(figsize=(12, 10))
+# correlation_matrix = data.drop(columns=['NOC']).corr()
+# sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm', fmt='.2f')
+# plt.title('Correlation Matrix')
+# plt.show()
 
-# Calculate Mean Squared Error and R^2 for each target variable
-mse_total = mean_squared_error(y_test['Total'], xgb_predictions[:, 0])
-r2_total = r2_score(y_test['Total'], xgb_predictions[:, 0])
+# # Calculate Mean Squared Error and R^2 for each target variable
+# mse_total = mean_squared_error(y_test['Total'], xgb_predictions[:, 0])
+# r2_total = r2_score(y_test['Total'], xgb_predictions[:, 0])
 
-mse_gold = mean_squared_error(y_test['Gold'], xgb_predictions[:, 1])
-r2_gold = r2_score(y_test['Gold'], xgb_predictions[:, 1])
+# mse_gold = mean_squared_error(y_test['Gold'], xgb_predictions[:, 1])
+# r2_gold = r2_score(y_test['Gold'], xgb_predictions[:, 1])
 
-mse_silver = mean_squared_error(y_test['Silver'], xgb_predictions[:, 2])
-r2_silver = r2_score(y_test['Silver'], xgb_predictions[:, 2])
+# mse_silver = mean_squared_error(y_test['Silver'], xgb_predictions[:, 2])
+# r2_silver = r2_score(y_test['Silver'], xgb_predictions[:, 2])
 
-mse_bronze = mean_squared_error(y_test['Bronze'], xgb_predictions[:, 3])
-r2_bronze = r2_score(y_test['Bronze'], xgb_predictions[:, 3])
+# mse_bronze = mean_squared_error(y_test['Bronze'], xgb_predictions[:, 3])
+# r2_bronze = r2_score(y_test['Bronze'], xgb_predictions[:, 3])
 
-# Print regression metrics for each target variable
-print(f"XGBoost Total Medals - MSE: {mse_total}, R^2: {r2_total}")
-print(f"XGBoost Gold Medals - MSE: {mse_gold}, R^2: {r2_gold}")
-print(f"XGBoost Silver Medals - MSE: {mse_silver}, R^2: {r2_silver}")
-print(f"XGBoost Bronze Medals - MSE: {mse_bronze}, R^2: {r2_bronze}")
-# Plot predictions vs actual values for each target variable
-fig, axs = plt.subplots(2, 2, figsize=(14, 12))
+# # Print regression metrics for each target variable
+# print(f"XGBoost Total Medals - MSE: {mse_total}, R^2: {r2_total}")
+# print(f"XGBoost Gold Medals - MSE: {mse_gold}, R^2: {r2_gold}")
+# print(f"XGBoost Silver Medals - MSE: {mse_silver}, R^2: {r2_silver}")
+# print(f"XGBoost Bronze Medals - MSE: {mse_bronze}, R^2: {r2_bronze}")
+# # Plot predictions vs actual values for each target variable
+# fig, axs = plt.subplots(2, 2, figsize=(14, 12))
 
-# Total Medals
-axs[0, 0].scatter(y_test['Total'], xgb_predictions[:, 0], color='blue', label='Predicted Total Medals')
-axs[0, 0].plot([y_test['Total'].min(), y_test['Total'].max()], [y_test['Total'].min(), y_test['Total'].max()], color='gray', lw=2, linestyle='--')
-axs[0, 0].set_xlabel('Actual Total Medals')
-axs[0, 0].set_ylabel('Predicted Total Medals')
-axs[0, 0].set_title('Total Medals: Predictions vs Actual')
-axs[0, 0].legend()
+# # Total Medals
+# axs[0, 0].scatter(y_test['Total'], xgb_predictions[:, 0], color='blue', label='Predicted Total Medals')
+# axs[0, 0].plot([y_test['Total'].min(), y_test['Total'].max()], [y_test['Total'].min(), y_test['Total'].max()], color='gray', lw=2, linestyle='--')
+# axs[0, 0].set_xlabel('Actual Total Medals')
+# axs[0, 0].set_ylabel('Predicted Total Medals')
+# axs[0, 0].set_title('Total Medals: Predictions vs Actual')
+# axs[0, 0].legend()
 
-# Gold Medals
-axs[0, 1].scatter(y_test['Gold'], xgb_predictions[:, 1], color='gold', label='Predicted Gold Medals')
-axs[0, 1].plot([y_test['Gold'].min(), y_test['Gold'].max()], [y_test['Gold'].min(), y_test['Gold'].max()], color='gray', lw=2, linestyle='--')
-axs[0, 1].set_xlabel('Actual Gold Medals')
-axs[0, 1].set_ylabel('Predicted Gold Medals')
-axs[0, 1].set_title('Gold Medals: Predictions vs Actual')
-axs[0, 1].legend()
+# # Gold Medals
+# axs[0, 1].scatter(y_test['Gold'], xgb_predictions[:, 1], color='gold', label='Predicted Gold Medals')
+# axs[0, 1].plot([y_test['Gold'].min(), y_test['Gold'].max()], [y_test['Gold'].min(), y_test['Gold'].max()], color='gray', lw=2, linestyle='--')
+# axs[0, 1].set_xlabel('Actual Gold Medals')
+# axs[0, 1].set_ylabel('Predicted Gold Medals')
+# axs[0, 1].set_title('Gold Medals: Predictions vs Actual')
+# axs[0, 1].legend()
 
-# Silver Medals
-axs[1, 0].scatter(y_test['Silver'], xgb_predictions[:, 2], color='silver', label='Predicted Silver Medals')
-axs[1, 0].plot([y_test['Silver'].min(), y_test['Silver'].max()], [y_test['Silver'].min(), y_test['Silver'].max()], color='gray', lw=2, linestyle='--')
-axs[1, 0].set_xlabel('Actual Silver Medals')
-axs[1, 0].set_ylabel('Predicted Silver Medals')
-axs[1, 0].set_title('Silver Medals: Predictions vs Actual')
-axs[1, 0].legend()
+# # Silver Medals
+# axs[1, 0].scatter(y_test['Silver'], xgb_predictions[:, 2], color='silver', label='Predicted Silver Medals')
+# axs[1, 0].plot([y_test['Silver'].min(), y_test['Silver'].max()], [y_test['Silver'].min(), y_test['Silver'].max()], color='gray', lw=2, linestyle='--')
+# axs[1, 0].set_xlabel('Actual Silver Medals')
+# axs[1, 0].set_ylabel('Predicted Silver Medals')
+# axs[1, 0].set_title('Silver Medals: Predictions vs Actual')
+# axs[1, 0].legend()
 
-# Bronze Medals
-axs[1, 1].scatter(y_test['Bronze'], xgb_predictions[:, 3], color='#cd7f32', label='Predicted Bronze Medals')
-axs[1, 1].plot([y_test['Bronze'].min(), y_test['Bronze'].max()], [y_test['Bronze'].min(), y_test['Bronze'].max()], color='gray', lw=2, linestyle='--')
-axs[1, 1].set_xlabel('Actual Bronze Medals')
-axs[1, 1].set_ylabel('Predicted Bronze Medals')
-axs[1, 1].set_title('Bronze Medals: Predictions vs Actual')
-axs[1, 1].legend()
+# # Bronze Medals
+# axs[1, 1].scatter(y_test['Bronze'], xgb_predictions[:, 3], color='#cd7f32', label='Predicted Bronze Medals')
+# axs[1, 1].plot([y_test['Bronze'].min(), y_test['Bronze'].max()], [y_test['Bronze'].min(), y_test['Bronze'].max()], color='gray', lw=2, linestyle='--')
+# axs[1, 1].set_xlabel('Actual Bronze Medals')
+# axs[1, 1].set_ylabel('Predicted Bronze Medals')
+# axs[1, 1].set_title('Bronze Medals: Predictions vs Actual')
+# axs[1, 1].legend()
 
-plt.tight_layout()
-plt.show()
+# plt.tight_layout()
+# plt.show()

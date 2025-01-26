@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.17)  26 JAN 2025 21:26
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.17)  26 JAN 2025 22:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1142,12 +1142,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [5]) (./include/answer1.tex
 File: ./figures/Cor_Matrix.png Graphic file (type bmp)
 <./figures/Cor_Matrix.png>
-File: ./figures/K-S_0.png Graphic file (type bmp)
-<./figures/K-S_0.png>
-File: ./figures/K-S_4.png Graphic file (type bmp)
-<./figures/K-S_4.png>
-File: ./figures/refer_KS_other.png Graphic file (type bmp)
-<./figures/refer_KS_other.png>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1157,6 +1151,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [6]
+File: ./figures/K-S_0.png Graphic file (type bmp)
+<./figures/K-S_0.png>
+File: ./figures/K-S_4.png Graphic file (type bmp)
+<./figures/K-S_4.png>
+File: ./figures/refer_KS_other.png Graphic file (type bmp)
+<./figures/refer_KS_other.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1172,7 +1173,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8]) (./include/answer2.tex
+[8]) (./include/answer4.tex
+File: ./figures/Key_event.png Graphic file (type bmp)
+<./figures/Key_event.png>
+
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 8--9
+ [][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1180,7 +1188,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]
+[9]) (./include/answer2.tex
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[10]
 File: ./img/../figures/win_probability_distribution.png Graphic file (type bmp)
 <./img/../figures/win_probability_distribution.png>
 
@@ -1202,11 +1218,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[10]) (./include/answer3.tex) (./include/answer4.tex
-File: ./figures/Key_event.png Graphic file (type bmp)
-<./figures/Key_event.png>
+[11]) (./include/answer3.tex) (./include/conclusion.tex
+File: ./img/../figures/2032.png Graphic file (type bmp)
+<./img/../figures/2032.png>
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 8--9
+Overfull \hbox (46.97836pt too wide) in paragraph at lines 7--8
  [][] 
  []
 
@@ -1217,7 +1233,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]) (./include/conclusion.tex
+[12]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1225,7 +1241,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]) (./citation.tex
+[13]) (./citation.tex
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
 (Font)              scaled to size 12.0pt on input line 13.
 )
@@ -1236,7 +1252,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13] (./include/code.tex
+[14] (./include/code.tex
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
 (Font)              scaled to size 24.88pt on input line 1.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
@@ -1264,14 +1280,6 @@ Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
 Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
 Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
 Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1336,10 +1344,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [22]
-Overfull \hbox (36.13486pt too wide) in paragraph at lines 434--436
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1348,6 +1352,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
+Overfull \hbox (36.13486pt too wide) in paragraph at lines 434--436
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1363,7 +1371,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25])
+[25]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1371,7 +1379,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[26] (../coach_try.py
+[26])
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[27] (../coach_try.py
 Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
 Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
 Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
@@ -1473,7 +1489,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[27]
+[28]
 Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
 Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
 Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
@@ -1551,7 +1567,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[28]
+[29]
 Missing character: There is no 作 (U+4F5C) in font [lmmono10-regular]:!
 Missing character: There is no 为 (U+4E3A) in font [lmmono10-regular]:!
 Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
@@ -1668,7 +1684,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[29]
+[30]
 Missing character: There is no 判 (U+5224) in font [lmmono10-regular]:!
 Missing character: There is no 断 (U+65AD) in font [lmmono10-regular]:!
 Missing character: There is no 是 (U+662F) in font [lmmono10-regular]:!
@@ -1734,14 +1750,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[30]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
 [31]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1750,7 +1758,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[32]) (../key_event.py
+[32]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[33]) (../key_event.py
 Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
 Missing character: There is no 载 (U+8F7D) in font [lmmono10-regular]:!
 Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
@@ -1910,7 +1926,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[33]
+[34]
 Missing character: There is no 创 (U+521B) in font [lmmono10-regular]:!
 Missing character: There is no 建 (U+5EFA) in font [lmmono10-regular]:!
 Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
@@ -1940,9 +1956,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[34] (./include/ai.tex
+[35] (./include/ai.tex
 \c@lastpage=\count466
- [35]
+ [36]
 Overfull \hbox (5.6089pt too wide) in paragraph at lines 121--125
 []\TU/TeXGyreTermesX(0)/b/n/12 Summary\TU/TeXGyreTermesX(0)/m/n/12 : Gracenote uses a proprietary algorithm to predict Olympic medal counts
  []
@@ -1959,7 +1975,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[36]
+[37]
 Overfull \hbox (0.13695pt too wide) in paragraph at lines 259--260
 []\TU/TeXGyreTermesX(0)/m/n/12 - \TU/TeXGyreTermesX(0)/b/n/12 1996\TU/TeXGyreTermesX(0)/m/n/12 : Marta coached the ”Magnificent Seven” member Kerri Strug to win the Olympic
  []
@@ -1972,7 +1988,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37] 
+[38] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./2515374.aux)
  ***********
@@ -1980,18 +1996,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `2515374.out' has not changed.
-(rerunfilecheck)             Checksum: 30C2FE4A0064E0F8C75C64313B6FB2C7;6618.
+(rerunfilecheck)             Checksum: FC6D7E81480D667F8D3390E99F48F76B;6576.
 Package logreq Info: Writing requests to '2515374.run.xml'.
 \openout1 = `2515374.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25396 strings out of 474773
- 481272 string characters out of 5761289
- 2045842 words of memory out of 5000000
- 47063 multiletter control sequences out of 15000+600000
+ 25383 strings out of 474773
+ 481317 string characters out of 5761289
+ 2049842 words of memory out of 5000000
+ 47049 multiletter control sequences out of 15000+600000
  573292 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  87i,13n,103p,1895b,4784s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2515374.pdf (38 pages).
+Output written on 2515374.pdf (39 pages).
