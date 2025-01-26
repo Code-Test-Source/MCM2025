@@ -1,5 +1,6 @@
 import pandas as pd
 import chardet
+import seaborn as sns
 
 # 文件路径
 file_dict_path = r".\2025_Problem_C_Data\data_dictionary.csv"
@@ -102,19 +103,69 @@ athletes = athletes[~athletes['Sport'].isin(ice_sports)]
 # Remove medals from the year 1906（其实他已经帮你去掉好了）
 medals = medals[medals['Year'] != 1906]
 
-# # 计算历年来奖牌前10的国家及其奖牌数
-# top_15_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending=False).head(10)
+# 计算历年来奖牌前10的国家及其奖牌数
+top_10_countries = medals.groupby('NOC').sum().sort_values(by='Total', ascending=False).head(10)
 
-# # 打印前15的国家及其奖牌数
-# print(top_15_countries[['Gold', 'Silver', 'Bronze', 'Total']])
-# #通过Medal栏非No medal计算运动员奖牌总数
-# athletes['Total'] = athletes['Medal'] != 'No medal'
-# athletes['Gold'] = athletes['Medal'] == 'Gold'
-# athletes['Silver'] = athletes['Medal'] == 'Silver'
-# athletes['Bronze'] = athletes['Medal'] == 'Bronze'
+# 打印前10的国家及其奖牌数
+print(top_10_countries[['Gold', 'Silver', 'Bronze', 'Total']])
 
-# # 计算获得奖牌数前15的运动员以及他们的金银铜牌数
-# top_15_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(15)
+# 通过Medal栏非No medal计算运动员奖牌总数
+athletes['Total'] = (athletes['Medal'] != 'No medal').astype(int)
+athletes['Gold'] = (athletes['Medal'] == 'Gold').astype(int)
+athletes['Silver'] = (athletes['Medal'] == 'Silver').astype(int)
+athletes['Bronze'] = (athletes['Medal'] == 'Bronze').astype(int)
 
-# # 打印前10的运动员及其奖牌数
-# print(top_15_athletes[['Gold', 'Silver', 'Bronze', 'Total']])
+# 计算获得奖牌数前15的运动员以及他们的金银铜牌数
+top_15_athletes = athletes.groupby('Name').sum().sort_values(by='Total', ascending=False).head(10)
+
+# 打印前10的运动员及其奖牌数
+print(top_15_athletes[['Gold', 'Silver', 'Bronze', 'Total']])
+
+# 绘制前10国家奖牌数的表格
+print("Top 10 Countries by Medal Count")
+print(top_10_countries[['Gold', 'Silver', 'Bronze', 'Total']].to_string())
+
+# 绘制前10运动员奖牌数的表格
+print("Top 10 Athletes by Medal Count")
+print(top_15_athletes[['Gold', 'Silver', 'Bronze', 'Total']].to_string())
+import matplotlib.pyplot as plt
+import matplotlib.table as tbl
+
+
+# Function to create a table plot
+def plot_table(data, title, filename):
+    fig, ax = plt.subplots(figsize=(7, 5))
+    ax.axis('tight')
+    ax.axis('off')
+    table = tbl.table(ax, cellText=data.values, colLabels=data.columns, cellLoc='center', loc='center')
+    table.auto_set_font_size(False)
+    table.set_fontsize(12)
+    table.scale(1.25, 1.6)  # Increase the cell height
+
+    # Set a nicer font
+    for key, cell in table.get_celld().items():
+        cell.set_fontsize(12)
+        cell.set_text_props(ha='center', va='center')  # Center align text
+
+    # Alternate row colors
+    for i, key in enumerate(table.get_celld()):
+        if key[0] == 0:
+            table[key].set_fontsize(14)
+        if key[0] % 2 == 0 and key[0] != 0:
+            table[key].set_facecolor('#f0f0f0')
+
+    # Center the table in the figure without adjusting the original size
+    table.auto_set_column_width(col=list(range(len(data.columns))))
+    plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.1)
+
+    plt.title(title, fontsize=18, pad=0)  # Increase title size and reduce padding
+    plt.savefig(filename)
+    plt.close()
+
+# Plot top 10 countries by medal count
+top_10_countries.reset_index(inplace=True)
+plot_table(top_10_countries[['NOC', 'Gold', 'Silver', 'Bronze', 'Total']], "Top 10 Countries by Medal Count", "top_10_countries.png")
+
+# Plot top 10 athletes by medal count
+top_15_athletes.reset_index(inplace=True)
+plot_table(top_15_athletes[['Name', 'Gold', 'Silver', 'Bronze', 'Total']], "Top 10 Athletes by Medal Count", "top_10_athletes.png")

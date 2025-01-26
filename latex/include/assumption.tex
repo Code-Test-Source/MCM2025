@@ -36,19 +36,31 @@ $h$ &aaaaaaaaaaaaaaaaaaa & $a$ &  aaaaaaaaaaaaaaaaaaaaa \\[0.2cm]
 $k$ & &  & \\[0.2cm]
 $c_p$ & &  &  \\[0.2cm]
 $\rho$ & &  &  \\[0.2cm]
-$T$ & &  &  \\[0.2cm]
 \end{tabular}
-
 \end{center}
-
 \noindent Define the Main parameters. Other Specific notations will be listed and explained later.
 
 \section{Data Preprocessing}
 \subsection{Data Cleaning}
 
 \subsubsection{Garbled Code}
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/bad_1.png}
+        \caption{bad data}
+        \label{fig:bad_1}
+    \end{minipage}\hfill
+    \begin{minipage}{0.2\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/bad_2.png}
+        \caption{bad text}
+        \label{fig:bad_2}
+    \end{minipage}
+\end{figure}
 
-
+We carefully examine the data and find that there are some garbled codes in the data, which may be caused by the encoding of the data. They are replaced by the correct text.
 
 \subsubsection{Null, Duplicated Values and Renaming}
 
@@ -69,11 +81,47 @@ Team are renamed to Country in the athletes data so that there won't be Germany-
     athletes.rename(columns={'Team': 'Country'}, inplace=True)
     \end{lstlisting}
 
-\subsubsection{Remove ice sports and athletes playing ice sports}
-\begin{lstlisting}[caption=Data Splitting]
+\subsubsection{Remove unnecessary data}
+\begin{lstlisting}[caption=Remove Ice Sports]
     ice_sports = ['Figure Skating', 'Ice Hockey']
     programs = programs[~programs['Sport'].isin(ice_sports)]
     athletes = athletes[~athletes['Sport'].isin(ice_sports)]
 \end{lstlisting}
-Before 1924, ice sports were held at the Summer Olympic Games. These two sports made their debuts at 1908 and 1920 Summer Olympics respectively, but in 1924 they were moved to the first edition of the Winter Olympic Games and became permanent fixtures on the sports program for the Winter Olympics from then on. Since their data are few, we set them aside.
+
+\begin{lstlisting}[caption=Remove Program from 1906]
+# Remove program from the year 1906
+program = program[program['Year'] != 1906]    
+\end{lstlisting}
+
 \subsection{Country Mapping}
+
+\begin{lstlisting}[caption=Country Mapping]
+country_mapping = {# map due to the change of country in history
+    'Soviet Union': 'Russia','Unified Team': 'Russia',
+    'West Germany': 'Germany','East Germany': 'Germany',
+    'Yugoslavia': 'Serbia',
+    'Bohemia': 'Czech Republic','Czechoslovakia': 'Czech Republic',
+    'Virgin Islands': 'United States',
+}
+# NOC mapping is similar.Only part of the country_mapping is shown here.There're also map between NOC and country.
+athletes['NOC'] = athletes['NOC'].replace(noc_mapping)
+medals['NOC'] = medals['NOC'].replace(country_mapping)
+\end{lstlisting}
+
+\subsection{Primary processed data: The `Top 10s'}
+
+\begin{figure}[h]
+    \centering
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/top_10_countries.png}
+        \caption{top $10$ countries}
+        \label{fig:top_10_countries}
+    \end{minipage}\hfill
+    \begin{minipage}{0.5\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{../figures/top_10_athletes.png}
+        \caption{top $10$ athletes}
+        \label{fig:top_10_athletes}
+    \end{minipage}
+\end{figure}
