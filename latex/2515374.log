@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.17)  26 JAN 2025 22:32
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2025.1.17)  27 JAN 2025 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -481,17 +481,44 @@ File: lstlang1.sty 2024/02/21 1.10 listings language file
 File: lstmisc.sty 2024/02/21 1.10 (Carsten Heinz)
 )
 LaTeX Info: Redefining \AIcite on input line 350.
+) (d:/texlive/2024/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (d:/texlive/2024/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen193
+\captionmargin=\dimen194
+\caption@leftmargin=\dimen195
+\caption@rightmargin=\dimen196
+\caption@width=\dimen197
+\caption@indent=\dimen198
+\caption@parindent=\dimen199
+\caption@hangindent=\dimen256
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count315
+\c@continuedfloat=\count316
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (d:/texlive/2024/texmf-dist/tex/latex/caption/ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (d:/texlive/2024/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count317
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count318
 ) (d:/texlive/2024/texmf-dist/tex/latex/newtx/newtxtext.sty
 Package: newtxtext 2024/02/08 v1.738(Michael Sharpe) latex and unicode latex support for TeXGyreTermesX
  `newtxtext' v1.738, 2024/02/08 Text macros taking advantage of TeXGyre Termes and its extensions (msharpe) (d:/texlive/2024/texmf-dist/tex/latex/xpatch/xpatch.sty (d:/texlive/2024/texmf-dist/tex/latex/l3kernel/expl3.sty
 Package: expl3 2024-02-20 L3 programming layer (loader) 
  (d:/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
 File: l3backend-xetex.def 2024-02-20 L3 backend support: XeTeX
-\g__graphics_track_int=\count315
+\g__graphics_track_int=\count319
 \l__pdf_internal_box=\box65
-\g__pdf_backend_object_int=\count316
-\g__pdf_backend_annotation_int=\count317
-\g__pdf_backend_link_int=\count318
+\g__pdf_backend_object_int=\count320
+\g__pdf_backend_annotation_int=\count321
+\g__pdf_backend_link_int=\count322
 ))
 Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
  (d:/texlive/2024/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
@@ -499,8 +526,8 @@ Package: xparse 2024-02-18 L3 Experimental document command parser
 )) (d:/texlive/2024/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ) (d:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.sty (d:/texlive/2024/texmf-dist/tex/generic/xstring/xstring.tex
-\xs_counta=\count319
-\xs_countb=\count320
+\xs_counta=\count323
+\xs_countb=\count324
 )
 Package: xstring 2023/08/22 v1.86 String manipulations (CT)
 ) (d:/texlive/2024/texmf-dist/tex/latex/carlisle/scalefnt.sty)
@@ -509,96 +536,96 @@ LaTeX Font Info:    Setting ntxTLF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxOsF sub-encoding to TS1/0 on input line 24.
 LaTeX Font Info:    Setting ntxTOsF sub-encoding to TS1/0 on input line 24.
  (d:/texlive/2024/texmf-dist/tex/generic/kastrup/binhex.tex)
-\ntx@tmpcnta=\count321
-\ntx@cnt=\count322
+\ntx@tmpcnta=\count325
+\ntx@cnt=\count326
  (d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.sty
 Package: fontspec 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
  (d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
 Package: fontspec-xetex 2024/02/13 v2.9a Font selection for XeLaTeX and LuaLaTeX
-\l__fontspec_script_int=\count323
-\l__fontspec_language_int=\count324
-\l__fontspec_strnum_int=\count325
-\l__fontspec_tmp_int=\count326
-\l__fontspec_tmpa_int=\count327
-\l__fontspec_tmpb_int=\count328
-\l__fontspec_tmpc_int=\count329
-\l__fontspec_em_int=\count330
-\l__fontspec_emdef_int=\count331
-\l__fontspec_strong_int=\count332
-\l__fontspec_strongdef_int=\count333
-\l__fontspec_tmpa_dim=\dimen193
-\l__fontspec_tmpb_dim=\dimen194
-\l__fontspec_tmpc_dim=\dimen195
+\l__fontspec_script_int=\count327
+\l__fontspec_language_int=\count328
+\l__fontspec_strnum_int=\count329
+\l__fontspec_tmp_int=\count330
+\l__fontspec_tmpa_int=\count331
+\l__fontspec_tmpb_int=\count332
+\l__fontspec_tmpc_int=\count333
+\l__fontspec_em_int=\count334
+\l__fontspec_emdef_int=\count335
+\l__fontspec_strong_int=\count336
+\l__fontspec_strongdef_int=\count337
+\l__fontspec_tmpa_dim=\dimen257
+\l__fontspec_tmpb_dim=\dimen258
+\l__fontspec_tmpc_dim=\dimen259
  (d:/texlive/2024/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (d:/texlive/2024/texmf-dist/tex/latex/fontspec/fontspec.cfg)))
 LaTeX Info: Redefining \oldstylenums on input line 605.
 LaTeX Info: Redefining \liningnums on input line 609.
-\tx@sixem=\dimen196
-\tx@y=\dimen197
-\tx@x=\dimen198
-\tx@tmpdima=\dimen199
-\tx@tmpdimb=\dimen256
-\tx@tmpdimc=\dimen257
-\tx@tmpdimd=\dimen258
-\tx@tmpdime=\dimen259
-\tx@tmpdimf=\dimen260
-\tx@dimA=\dimen261
-\tx@dimAA=\dimen262
-\tx@dimB=\dimen263
-\tx@dimBB=\dimen264
-\tx@dimC=\dimen265
+\tx@sixem=\dimen260
+\tx@y=\dimen261
+\tx@x=\dimen262
+\tx@tmpdima=\dimen263
+\tx@tmpdimb=\dimen264
+\tx@tmpdimc=\dimen265
+\tx@tmpdimd=\dimen266
+\tx@tmpdime=\dimen267
+\tx@tmpdimf=\dimen268
+\tx@dimA=\dimen269
+\tx@dimAA=\dimen270
+\tx@dimB=\dimen271
+\tx@dimBB=\dimen272
+\tx@dimC=\dimen273
 ) (d:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
  (d:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count334
+\lrq@indent=\count338
  (d:/texlive/2024/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count335
-\c@listtotal=\count336
-\c@listcount=\count337
-\c@liststart=\count338
-\c@liststop=\count339
-\c@citecount=\count340
-\c@citetotal=\count341
-\c@multicitecount=\count342
-\c@multicitetotal=\count343
-\c@instcount=\count344
-\c@maxnames=\count345
-\c@minnames=\count346
-\c@maxitems=\count347
-\c@minitems=\count348
-\c@citecounter=\count349
-\c@maxcitecounter=\count350
-\c@savedcitecounter=\count351
-\c@uniquelist=\count352
-\c@uniquename=\count353
-\c@refsection=\count354
-\c@refsegment=\count355
-\c@maxextratitle=\count356
-\c@maxextratitleyear=\count357
-\c@maxextraname=\count358
-\c@maxextradate=\count359
-\c@maxextraalpha=\count360
-\c@abbrvpenalty=\count361
-\c@highnamepenalty=\count362
-\c@lownamepenalty=\count363
-\c@maxparens=\count364
-\c@parenlevel=\count365
-\blx@tempcnta=\count366
-\blx@tempcntb=\count367
-\blx@tempcntc=\count368
-\c@blx@maxsection=\count369
-\blx@maxsegment@0=\count370
-\blx@notetype=\count371
-\blx@parenlevel@text=\count372
-\blx@parenlevel@foot=\count373
-\blx@sectionciteorder@0=\count374
-\blx@sectionciteorderinternal@0=\count375
-\blx@entrysetcounter=\count376
-\blx@biblioinstance=\count377
+\c@tabx@nest=\count339
+\c@listtotal=\count340
+\c@listcount=\count341
+\c@liststart=\count342
+\c@liststop=\count343
+\c@citecount=\count344
+\c@citetotal=\count345
+\c@multicitecount=\count346
+\c@multicitetotal=\count347
+\c@instcount=\count348
+\c@maxnames=\count349
+\c@minnames=\count350
+\c@maxitems=\count351
+\c@minitems=\count352
+\c@citecounter=\count353
+\c@maxcitecounter=\count354
+\c@savedcitecounter=\count355
+\c@uniquelist=\count356
+\c@uniquename=\count357
+\c@refsection=\count358
+\c@refsegment=\count359
+\c@maxextratitle=\count360
+\c@maxextratitleyear=\count361
+\c@maxextraname=\count362
+\c@maxextradate=\count363
+\c@maxextraalpha=\count364
+\c@abbrvpenalty=\count365
+\c@highnamepenalty=\count366
+\c@lownamepenalty=\count367
+\c@maxparens=\count368
+\c@parenlevel=\count369
+\blx@tempcnta=\count370
+\blx@tempcntb=\count371
+\blx@tempcntc=\count372
+\c@blx@maxsection=\count373
+\blx@maxsegment@0=\count374
+\blx@notetype=\count375
+\blx@parenlevel@text=\count376
+\blx@parenlevel@foot=\count377
+\blx@sectionciteorder@0=\count378
+\blx@sectionciteorderinternal@0=\count379
+\blx@entrysetcounter=\count380
+\blx@biblioinstance=\count381
 \labelnumberwidth=\skip82
 \labelalphawidth=\skip83
 \biblabelsep=\skip84
@@ -610,9 +637,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write4
 \blx@langwohyphens=\language89
-\c@mincomprange=\count378
-\c@maxcomprange=\count379
-\c@mincompwidth=\count380
+\c@mincomprange=\count382
+\c@maxcomprange=\count383
+\c@mincompwidth=\count384
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (d:/texlive/2024/texmf-dist/tex/latex/biblatex/blx-dm.def
@@ -620,74 +647,74 @@ File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count381
-\c@savedafterword=\count382
-\c@annotator=\count383
-\c@savedannotator=\count384
-\c@author=\count385
-\c@savedauthor=\count386
-\c@bookauthor=\count387
-\c@savedbookauthor=\count388
-\c@commentator=\count389
-\c@savedcommentator=\count390
-\c@editor=\count391
-\c@savededitor=\count392
-\c@editora=\count393
-\c@savededitora=\count394
-\c@editorb=\count395
-\c@savededitorb=\count396
-\c@editorc=\count397
-\c@savededitorc=\count398
-\c@foreword=\count399
-\c@savedforeword=\count400
-\c@holder=\count401
-\c@savedholder=\count402
-\c@introduction=\count403
-\c@savedintroduction=\count404
-\c@namea=\count405
-\c@savednamea=\count406
-\c@nameb=\count407
-\c@savednameb=\count408
-\c@namec=\count409
-\c@savednamec=\count410
-\c@translator=\count411
-\c@savedtranslator=\count412
-\c@shortauthor=\count413
-\c@savedshortauthor=\count414
-\c@shorteditor=\count415
-\c@savedshorteditor=\count416
-\c@labelname=\count417
-\c@savedlabelname=\count418
-\c@institution=\count419
-\c@savedinstitution=\count420
-\c@lista=\count421
-\c@savedlista=\count422
-\c@listb=\count423
-\c@savedlistb=\count424
-\c@listc=\count425
-\c@savedlistc=\count426
-\c@listd=\count427
-\c@savedlistd=\count428
-\c@liste=\count429
-\c@savedliste=\count430
-\c@listf=\count431
-\c@savedlistf=\count432
-\c@location=\count433
-\c@savedlocation=\count434
-\c@organization=\count435
-\c@savedorganization=\count436
-\c@origlocation=\count437
-\c@savedoriglocation=\count438
-\c@origpublisher=\count439
-\c@savedorigpublisher=\count440
-\c@publisher=\count441
-\c@savedpublisher=\count442
-\c@language=\count443
-\c@savedlanguage=\count444
-\c@origlanguage=\count445
-\c@savedoriglanguage=\count446
-\c@pageref=\count447
-\c@savedpageref=\count448
+\c@afterword=\count385
+\c@savedafterword=\count386
+\c@annotator=\count387
+\c@savedannotator=\count388
+\c@author=\count389
+\c@savedauthor=\count390
+\c@bookauthor=\count391
+\c@savedbookauthor=\count392
+\c@commentator=\count393
+\c@savedcommentator=\count394
+\c@editor=\count395
+\c@savededitor=\count396
+\c@editora=\count397
+\c@savededitora=\count398
+\c@editorb=\count399
+\c@savededitorb=\count400
+\c@editorc=\count401
+\c@savededitorc=\count402
+\c@foreword=\count403
+\c@savedforeword=\count404
+\c@holder=\count405
+\c@savedholder=\count406
+\c@introduction=\count407
+\c@savedintroduction=\count408
+\c@namea=\count409
+\c@savednamea=\count410
+\c@nameb=\count411
+\c@savednameb=\count412
+\c@namec=\count413
+\c@savednamec=\count414
+\c@translator=\count415
+\c@savedtranslator=\count416
+\c@shortauthor=\count417
+\c@savedshortauthor=\count418
+\c@shorteditor=\count419
+\c@savedshorteditor=\count420
+\c@labelname=\count421
+\c@savedlabelname=\count422
+\c@institution=\count423
+\c@savedinstitution=\count424
+\c@lista=\count425
+\c@savedlista=\count426
+\c@listb=\count427
+\c@savedlistb=\count428
+\c@listc=\count429
+\c@savedlistc=\count430
+\c@listd=\count431
+\c@savedlistd=\count432
+\c@liste=\count433
+\c@savedliste=\count434
+\c@listf=\count435
+\c@savedlistf=\count436
+\c@location=\count437
+\c@savedlocation=\count438
+\c@organization=\count439
+\c@savedorganization=\count440
+\c@origlocation=\count441
+\c@savedoriglocation=\count442
+\c@origpublisher=\count443
+\c@savedorigpublisher=\count444
+\c@publisher=\count445
+\c@savedpublisher=\count446
+\c@language=\count447
+\c@savedlanguage=\count448
+\c@origlanguage=\count449
+\c@savedoriglanguage=\count450
+\c@pageref=\count451
+\c@savedpageref=\count452
 \shorthandwidth=\skip90
 \shortjournalwidth=\skip91
 \shortserieswidth=\skip92
@@ -724,19 +751,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (d:/texlive/2024/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
-\c@textcitecount=\count449
-\c@textcitetotal=\count450
-\c@textcitemaxnames=\count451
-\c@biburlbigbreakpenalty=\count452
-\c@biburlbreakpenalty=\count453
-\c@biburlnumpenalty=\count454
-\c@biburlucpenalty=\count455
-\c@biburllcpenalty=\count456
+\c@textcitecount=\count453
+\c@textcitetotal=\count454
+\c@textcitemaxnames=\count455
+\c@biburlbigbreakpenalty=\count456
+\c@biburlbreakpenalty=\count457
+\c@biburlnumpenalty=\count458
+\c@biburlucpenalty=\count459
+\c@biburllcpenalty=\count460
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count457
+\c@smartand=\count461
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
@@ -746,8 +773,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (d:/texlive/2024/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count458
-\c@bbx:relatedtotal=\count459
+\c@bbx:relatedcount=\count462
+\c@bbx:relatedtotal=\count463
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
@@ -808,8 +835,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip127
 \cftfigindent=\skip128
 \cftfignumwidth=\skip129
-\c@lofdepth=\count460
-\c@lotdepth=\count461
+\c@lofdepth=\count464
+\c@lotdepth=\count465
 \cftbeforelottitleskip=\skip130
 \cftafterlottitleskip=\skip131
 \cftbeforetabskip=\skip132
@@ -821,7 +848,7 @@ Package: lastpage 2023/10/14 v2.0e lastpage: 2.09 or 2e? (HMM)
 Package: lastpage2e 2023/10/14 v2.0e Decide which 2e lastpage version to use (HMM)
  (d:/texlive/2024/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
 Package: lastpagemodern 2023-10-14 v2.0e Refers to last page's name (HMM; JPG)
-\c@lastpagecount=\count462
+\c@lastpagecount=\count466
 ) 
 )) (d:/texlive/2024/texmf-dist/tex/latex/newtx/TeXGyreTermesX.fontspec)
 
@@ -904,37 +931,37 @@ Package fontspec Info: Font family 'TeXGyreTermesX(0)' created for font
 (fontspec)             <->s*[1]"[TeXGyreTermesX-BoldSlanted.otf]/OT:script=latn;language=dflt;-ss05;+tnum;+lnum;+smcp;+pcap;mapping=tex-text;"
 
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 44.
-\@quotelevel=\count463
-\@quotereset=\count464
+(Font)              scaled to size 12.0pt on input line 46.
+\@quotelevel=\count467
+\@quotereset=\count468
  (./2515374.aux)
 \openout1 = `2515374.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
-LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 44.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 46.
  (d:/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 44.
-LaTeX Font Info:    ... okay on input line 44.
-\c@lstlisting=\count465
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 46.
+LaTeX Font Info:    ... okay on input line 46.
+\c@lstlisting=\count469
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -970,67 +997,69 @@ LaTeX Font Info:    ... okay on input line 44.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 44.
+Package hyperref Info: Link coloring OFF on input line 46.
 (./2515374.out) (./2515374.out)
 \@outlinefile=\write5
 \openout5 = `2515374.out'.
 
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup11
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 44.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 44.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 44.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 44.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 44.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 44.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 44.
-LaTeX Font Info:    Redeclaring math accent \check on input line 44.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 44.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 44.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 44.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 44.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 44.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
+LaTeX Font Info:    Redeclaring math accent \check on input line 46.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 44.
+(Font)              `operators' in the math version `normal' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 44.
+(Font)                  OT1/cmr/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 46.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 44.
+(Font)              `operators' in the math version `bold' on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/m/n on input line 44.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 44.
+(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(0)/m/it on input line 44.
+(Font)                  OT1/cmr/m/it --> TU/TeXGyreTermesX(0)/m/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/b/n on input line 44.
+(Font)                  OT1/cmr/bx/n --> TU/TeXGyreTermesX(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 44.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 44.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/b/n on input line 44.
+(Font)                  TU/TeXGyreTermesX(0)/m/n --> TU/TeXGyreTermesX(0)/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermesX(0)/b/it on input line 44.
+(Font)                  OT1/cmr/bx/it --> TU/TeXGyreTermesX(0)/b/it on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 44.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 46.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 44.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 46.
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (d:/texlive/2024/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1049,17 +1078,17 @@ Package biblatex Info: Data encoding 'utf8' specified.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file '2515374.bbl' found.
  (./2515374.bbl)
-Package biblatex Info: Reference section=0 on input line 44.
-Package biblatex Info: Reference segment=0 on input line 44.
+Package biblatex Info: Reference section=0 on input line 46.
+Package biblatex Info: Reference segment=0 on input line 46.
  (./include/summary.tex)
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 12.0pt on input line 48.
+(Font)              scaled to size 12.0pt on input line 50.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 17.28pt on input line 48.
+(Font)              scaled to size 17.28pt on input line 50.
 LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 20.74pt on input line 48.
+(Font)              scaled to size 20.74pt on input line 50.
  [1
 
 ] (./2515374.toc
@@ -1181,6 +1210,7 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
+) (./include/answer2.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1188,7 +1218,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[9]) (./include/answer2.tex
+[9]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1212,18 +1242,26 @@ Overfull \hbox (46.97836pt too wide) in paragraph at lines 35--36
  []
 
 
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
 (fancyhdr)                \setlength{\headheight}{13.59999pt}.
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[11]) (./include/answer3.tex) (./include/conclusion.tex
-File: ./img/../figures/2032.png Graphic file (type bmp)
-<./img/../figures/2032.png>
+[11]) (./include/answer3.tex
 
-Overfull \hbox (46.97836pt too wide) in paragraph at lines 7--8
- [][] 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 13.59999pt, for example:
+(fancyhdr)                \setlength{\headheight}{13.59999pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
+
+[12]
+Overfull \hbox (3.66899pt too wide) in paragraph at lines 33--34
+[]\TU/TeXGyreTermesX(0)/m/n/12 Since we do not have specific information on which events or disciplines Bela and Marta coached,
  []
 
 
@@ -1233,7 +1271,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[12]
+[13]
+Overfull \hbox (1.77994pt too wide) in paragraph at lines 64--65
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+File: ./img/../figures/lang_ping.png Graphic file (type bmp)
+<./img/../figures/lang_ping.png>
+File: ./img/../figures/chn_tt.png Graphic file (type bmp)
+<./img/../figures/chn_tt.png>
+File: ./img/../figures/gym.png Graphic file (type bmp)
+<./img/../figures/gym.png>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1241,45 +1292,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[13]) (./citation.tex
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
-(Font)              scaled to size 12.0pt on input line 13.
-)
+[14]) (./include/conclusion.tex
+File: ./img/../figures/2032.png Graphic file (type bmp)
+<./img/../figures/2032.png>
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[14] (./include/code.tex
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
-(Font)              scaled to size 24.88pt on input line 1.
-LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
-(Font)              scaled to size 24.88pt on input line 1.
- (../data_nonlinear.py
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 路 (U+8DEF) in font [lmmono10-regular]:!
-Missing character: There is no 径 (U+5F84) in font [lmmono10-regular]:!
-Missing character: There is no 检 (U+68C0) in font [lmmono10-regular]:!
-Missing character: There is no 测 (U+6D4B) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 编 (U+7F16) in font [lmmono10-regular]:!
-Missing character: There is no 码 (U+7801) in font [lmmono10-regular]:!
-Missing character: There is no 直 (U+76F4) in font [lmmono10-regular]:!
-Missing character: There is no 接 (U+63A5) in font [lmmono10-regular]:!
-Missing character: There is no 使 (U+4F7F) in font [lmmono10-regular]:!
-Missing character: There is no 用 (U+7528) in font [lmmono10-regular]:!
-Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
-Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
-Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1288,6 +1304,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [15]
+File: ./figures/Legendary_index.png Graphic file (type bmp)
+<./figures/Legendary_index.png>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1303,7 +1325,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[17]
+[17]) (./citation.tex
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/it' will be
+(Font)              scaled to size 12.0pt on input line 13.
+
+Overfull \hbox (2.39699pt too wide) in paragraph at lines 13--13
+[]\TU/TeXGyreTermesX(0)/m/it/12 paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal\TU/TeXGyreTermesX(0)/m/n/12 .
+ []
+
+
+Overfull \hbox (1.3466pt too wide) in paragraph at lines 13--13
+[]\TU/TeXGyreTermesX(0)/m/it/12 USA Gymnastics Hall of Fame\TU/TeXGyreTermesX(0)/m/n/12 . []$[][][][][] [] [] [] [][][][][][] [] [][][] [] [][][][][][][][][][] [] [][][][][][][][] [] [][][][][][][][] [][]
+ []
+
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1311,7 +1346,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[18]
+[18] (./include/code.tex
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/m/n' will be
+(Font)              scaled to size 24.88pt on input line 1.
+LaTeX Font Info:    Font shape `TU/TeXGyreTermesX(0)/b/n' will be
+(Font)              scaled to size 24.88pt on input line 1.
+ (../latex/code/data_nonlinear.py
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1327,7 +1367,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[20]
+[20])
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1335,7 +1375,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[21]
+[21] (../latex/code/key_event.py) (../latex/code/first_medal_rf.py
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1343,7 +1383,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[22]
+[22]) (../latex/code/coach_try.py
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1352,10 +1392,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
 [23]
-Overfull \hbox (36.13486pt too wide) in paragraph at lines 434--436
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1363,7 +1399,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[24]
+[24]))
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1371,594 +1407,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[25]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[26])
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[27] (../coach_try.py
-Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
-Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 筛 (U+7B5B) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 美 (U+7F8E) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 女 (U+5973) in font [lmmono10-regular]:!
-Missing character: There is no 子 (U+5B50) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 操 (U+64CD) in font [lmmono10-regular]:!
-Missing character: There is no 队 (U+961F) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 因 (U+56E0) in font [lmmono10-regular]:!
-Missing character: There is no 为 (U+4E3A) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 目 (U+76EE) in font [lmmono10-regular]:!
-Missing character: There is no 发 (U+53D1) in font [lmmono10-regular]:!
-Missing character: There is no 生 (U+751F) in font [lmmono10-regular]:!
-Missing character: There is no 变 (U+53D8) in font [lmmono10-regular]:!
-Missing character: There is no 化 (U+5316) in font [lmmono10-regular]:!
-Missing character: There is no 因 (U+56E0) in font [lmmono10-regular]:!
-Missing character: There is no 此 (U+6B64) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 些 (U+4E9B) in font [lmmono10-regular]:!
-Missing character: There is no 反 (U+53CD) in font [lmmono10-regular]:!
-Missing character: There is no 常 (U+5E38) in font [lmmono10-regular]:!
-Missing character: There is no 就 (U+5C31) in font [lmmono10-regular]:!
-Missing character: There is no 不 (U+4E0D) in font [lmmono10-regular]:!
-Missing character: There is no 拿 (U+62FF) in font [lmmono10-regular]:!
-Missing character: There is no 进 (U+8FDB) in font [lmmono10-regular]:!
-Missing character: There is no 去 (U+53BB) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 了 (U+4E86) in font [lmmono10-regular]:!
-Missing character: There is no 将 (U+5C06) in font [lmmono10-regular]:!
-Missing character: There is no 筛 (U+7B5B) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 后 (U+540E) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 保 (U+4FDD) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 另 (U+53E6) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 添 (U+6DFB) in font [lmmono10-regular]:!
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 新 (U+65B0) in font [lmmono10-regular]:!
-Missing character: There is no 列 (U+5217) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 标 (U+6807) in font [lmmono10-regular]:!
-Missing character: There is no 记 (U+8BB0) in font [lmmono10-regular]:!
-Missing character: There is no 是 (U+662F) in font [lmmono10-regular]:!
-Missing character: There is no 否 (U+5426) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 执 (U+6267) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 统 (U+7EDF) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 年 (U+5E74) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 对 (U+5BF9) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 牌 (U+724C) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 影 (U+5F71) in font [lmmono10-regular]:!
-Missing character: There is no 响 (U+54CD) in font [lmmono10-regular]:!
-Missing character: There is no 保 (U+4FDD) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[28]
-Missing character: There is no 读 (U+8BFB) in font [lmmono10-regular]:!
-Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-Missing character: There is no 获 (U+83B7) in font [lmmono10-regular]:!
-Missing character: There is no 取 (U+53D6) in font [lmmono10-regular]:!
-Missing character: There is no 所 (U+6240) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 初 (U+521D) in font [lmmono10-regular]:!
-Missing character: There is no 始 (U+59CB) in font [lmmono10-regular]:!
-Missing character: There is no 化 (U+5316) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 空 (U+7A7A) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 来 (U+6765) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 储 (U+50A8) in font [lmmono10-regular]:!
-Missing character: There is no 所 (U+6240) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 遍 (U+904D) in font [lmmono10-regular]:!
-Missing character: There is no 历 (U+5386) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 筛 (U+7B5B) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 出 (U+51FA) in font [lmmono10-regular]:!
-Missing character: There is no 当 (U+5F53) in font [lmmono10-regular]:!
-Missing character: There is no 前 (U+524D) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 按 (U+6309) in font [lmmono10-regular]:!
-Missing character: There is no 和 (U+548C) in font [lmmono10-regular]:!
-Missing character: There is no 分 (U+5206) in font [lmmono10-regular]:!
-Missing character: There is no 类 (U+7C7B) in font [lmmono10-regular]:!
-Missing character: There is no 统 (U+7EDF) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 年 (U+5E74) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 牌 (U+724C) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 添 (U+6DFB) in font [lmmono10-regular]:!
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 年 (U+5E74) in font [lmmono10-regular]:!
-Missing character: There is no 份 (U+4EFD) in font [lmmono10-regular]:!
-Missing character: There is no 列 (U+5217) in font [lmmono10-regular]:!
-Missing character: There is no 添 (U+6DFB) in font [lmmono10-regular]:!
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 列 (U+5217) in font [lmmono10-regular]:!
-Missing character: There is no 将 (U+5C06) in font [lmmono10-regular]:!
-Missing character: There is no 当 (U+5F53) in font [lmmono10-regular]:!
-Missing character: There is no 前 (U+524D) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 添 (U+6DFB) in font [lmmono10-regular]:!
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 中 (U+4E2D) in font [lmmono10-regular]:!
-Missing character: There is no 保 (U+4FDD) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 所 (U+6240) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[29]
-Missing character: There is no 作 (U+4F5C) in font [lmmono10-regular]:!
-Missing character: There is no 为 (U+4E3A) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 指 (U+6307) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no （ (U+FF08) in font [lmmono10-regular]:!
-Missing character: There is no ） (U+FF09) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 集 (U+96C6) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 能 (U+80FD) in font [lmmono10-regular]:!
-Missing character: There is no 够 (U+591F) in font [lmmono10-regular]:!
-Missing character: There is no 针 (U+9488) in font [lmmono10-regular]:!
-Missing character: There is no 对 (U+5BF9) in font [lmmono10-regular]:!
-Missing character: There is no 输 (U+8F93) in font [lmmono10-regular]:!
-Missing character: There is no 入 (U+5165) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 算 (U+7B97) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 指 (U+6307) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 模 (U+6A21) in font [lmmono10-regular]:!
-Missing character: There is no 型 (U+578B) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 示 (U+793A) in font [lmmono10-regular]:!
-Missing character: There is no 例 (U+4F8B) in font [lmmono10-regular]:!
-Missing character: There is no 输 (U+8F93) in font [lmmono10-regular]:!
-Missing character: There is no 入 (U+5165) in font [lmmono10-regular]:!
-Missing character: There is no 准 (U+51C6) in font [lmmono10-regular]:!
-Missing character: There is no 备 (U+5907) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 分 (U+5206) in font [lmmono10-regular]:!
-Missing character: There is no 割 (U+5272) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 集 (U+96C6) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 模 (U+6A21) in font [lmmono10-regular]:!
-Missing character: There is no 型 (U+578B) in font [lmmono10-regular]:!
-Missing character: There is no 设 (U+8BBE) in font [lmmono10-regular]:!
-Missing character: There is no 置 (U+7F6E) in font [lmmono10-regular]:!
-Missing character: There is no 参 (U+53C2) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 训 (U+8BAD) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 模 (U+6A21) in font [lmmono10-regular]:!
-Missing character: There is no 型 (U+578B) in font [lmmono10-regular]:!
-Missing character: There is no 预 (U+9884) in font [lmmono10-regular]:!
-Missing character: There is no 测 (U+6D4B) in font [lmmono10-regular]:!
-Missing character: There is no 对 (U+5BF9) in font [lmmono10-regular]:!
-Missing character: There is no 于 (U+4E8E) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 分 (U+5206) in font [lmmono10-regular]:!
-Missing character: There is no 类 (U+7C7B) in font [lmmono10-regular]:!
-Missing character: There is no 做 (U+505A) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 指 (U+6307) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 算 (U+7B97) in font [lmmono10-regular]:!
-Missing character: There is no 与 (U+4E0E) in font [lmmono10-regular]:!
-Missing character: There is no 判 (U+5224) in font [lmmono10-regular]:!
-Missing character: There is no 断 (U+65AD) in font [lmmono10-regular]:!
-Missing character: There is no 初 (U+521D) in font [lmmono10-regular]:!
-Missing character: There is no 始 (U+59CB) in font [lmmono10-regular]:!
-Missing character: There is no 化 (U+5316) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 空 (U+7A7A) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 来 (U+6765) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 储 (U+50A8) in font [lmmono10-regular]:!
-Missing character: There is no 结 (U+7ED3) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 算 (U+7B97) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 指 (U+6307) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 如 (U+5982) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 则 (U+5219) in font [lmmono10-regular]:!
-Missing character: There is no 算 (U+7B97) in font [lmmono10-regular]:!
-Missing character: There is no 作 (U+4F5C) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[30]
-Missing character: There is no 判 (U+5224) in font [lmmono10-regular]:!
-Missing character: There is no 断 (U+65AD) in font [lmmono10-regular]:!
-Missing character: There is no 是 (U+662F) in font [lmmono10-regular]:!
-Missing character: There is no 否 (U+5426) in font [lmmono10-regular]:!
-Missing character: There is no 为 (U+4E3A) in font [lmmono10-regular]:!
-Missing character: There is no 传 (U+4F20) in font [lmmono10-regular]:!
-Missing character: There is no 奇 (U+5947) in font [lmmono10-regular]:!
-Missing character: There is no 教 (U+6559) in font [lmmono10-regular]:!
-Missing character: There is no 练 (U+7EC3) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 择 (U+62E9) in font [lmmono10-regular]:!
-Missing character: There is no 需 (U+9700) in font [lmmono10-regular]:!
-Missing character: There is no 要 (U+8981) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 列 (U+5217) in font [lmmono10-regular]:!
-Missing character: There is no 将 (U+5C06) in font [lmmono10-regular]:!
-Missing character: There is no 结 (U+7ED3) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 添 (U+6DFB) in font [lmmono10-regular]:!
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 中 (U+4E2D) in font [lmmono10-regular]:!
-Missing character: There is no 保 (U+4FDD) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 结 (U+7ED3) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-
-Overfull \hbox (13.13988pt too wide) in paragraph at lines 137--139
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-Missing character: There is no 将 (U+5C06) in font [lmmono10-regular]:!
-Missing character: There is no 结 (U+7ED3) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 为 (U+4E3A) in font [lmmono10-regular]:!
-Missing character: There is no 真 (U+771F) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 保 (U+4FDD) in font [lmmono10-regular]:!
-Missing character: There is no 存 (U+5B58) in font [lmmono10-regular]:!
-Missing character: There is no 到 (U+5230) in font [lmmono10-regular]:!
-Missing character: There is no 文 (U+6587) in font [lmmono10-regular]:!
-Missing character: There is no 件 (U+4EF6) in font [lmmono10-regular]:!
-
-Overfull \hbox (9.99281pt too wide) in paragraph at lines 140--141
-[][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (70.62733pt too wide) in paragraph at lines 141--143
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-) (../first_medal_rf.py
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[31]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[32]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[33]) (../key_event.py
-Missing character: There is no 加 (U+52A0) in font [lmmono10-regular]:!
-Missing character: There is no 载 (U+8F7D) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 过 (U+8FC7) in font [lmmono10-regular]:!
-Missing character: There is no 滤 (U+6EE4) in font [lmmono10-regular]:!
-Missing character: There is no 掉 (U+6389) in font [lmmono10-regular]:!
-Missing character: There is no 没 (U+6CA1) in font [lmmono10-regular]:!
-Missing character: There is no 有 (U+6709) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 牌 (U+724C) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no 统 (U+7EDF) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 、 (U+3001) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 育 (U+80B2) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 目 (U+76EE) in font [lmmono10-regular]:!
-Missing character: There is no 、 (U+3001) in font [lmmono10-regular]:!
-Missing character: There is no 赛 (U+8D5B) in font [lmmono10-regular]:!
-Missing character: There is no 事 (U+4E8B) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 获 (U+83B7) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 量 (U+91CF) in font [lmmono10-regular]:!
-Missing character: There is no 统 (U+7EDF) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 总 (U+603B) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 牌 (U+724C) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 合 (U+5408) in font [lmmono10-regular]:!
-Missing character: There is no 并 (U+5E76) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 计 (U+8BA1) in font [lmmono10-regular]:!
-Missing character: There is no 算 (U+7B97) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 育 (U+80B2) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 目 (U+76EE) in font [lmmono10-regular]:!
-Missing character: There is no 赛 (U+8D5B) in font [lmmono10-regular]:!
-Missing character: There is no 事 (U+4E8B) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 获 (U+83B7) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 占 (U+5360) in font [lmmono10-regular]:!
-Missing character: There is no 比 (U+6BD4) in font [lmmono10-regular]:!
-Missing character: There is no 设 (U+8BBE) in font [lmmono10-regular]:!
-Missing character: There is no 定 (U+5B9A) in font [lmmono10-regular]:!
-Missing character: There is no 阈 (U+9608) in font [lmmono10-regular]:!
-Missing character: There is no 值 (U+503C) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 筛 (U+7B5B) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 依 (U+4F9D) in font [lmmono10-regular]:!
-Missing character: There is no 赖 (U+8D56) in font [lmmono10-regular]:!
-Missing character: There is no 于 (U+4E8E) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 或 (U+6216) in font [lmmono10-regular]:!
-Missing character: There is no 少 (U+5C11) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 几 (U+51E0) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 育 (U+80B2) in font [lmmono10-regular]:!
-Missing character: There is no 赛 (U+8D5B) in font [lmmono10-regular]:!
-Missing character: There is no 事 (U+4E8B) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 依 (U+4F9D) in font [lmmono10-regular]:!
-Missing character: There is no 赖 (U+8D56) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 牌 (U+724C) in font [lmmono10-regular]:!
-Missing character: There is no 占 (U+5360) in font [lmmono10-regular]:!
-Missing character: There is no 比 (U+6BD4) in font [lmmono10-regular]:!
-Missing character: There is no 超 (U+8D85) in font [lmmono10-regular]:!
-Missing character: There is no 过 (U+8FC7) in font [lmmono10-regular]:!
-Missing character: There is no 此 (U+6B64) in font [lmmono10-regular]:!
-Missing character: There is no 值 (U+503C) in font [lmmono10-regular]:!
-Missing character: There is no 按 (U+6309) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 分 (U+5206) in font [lmmono10-regular]:!
-Missing character: There is no 组 (U+7EC4) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 找 (U+627E) in font [lmmono10-regular]:!
-Missing character: There is no 出 (U+51FA) in font [lmmono10-regular]:!
-Missing character: There is no 每 (U+6BCF) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 获 (U+83B7) in font [lmmono10-regular]:!
-Missing character: There is no 奖 (U+5956) in font [lmmono10-regular]:!
-Missing character: There is no 最 (U+6700) in font [lmmono10-regular]:!
-Missing character: There is no 多 (U+591A) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 前 (U+524D) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 育 (U+80B2) in font [lmmono10-regular]:!
-Missing character: There is no 赛 (U+8D5B) in font [lmmono10-regular]:!
-Missing character: There is no 事 (U+4E8B) in font [lmmono10-regular]:!
-Missing character: There is no 输 (U+8F93) in font [lmmono10-regular]:!
-Missing character: There is no 出 (U+51FA) in font [lmmono10-regular]:!
-Missing character: There is no 结 (U+7ED3) in font [lmmono10-regular]:!
-Missing character: There is no 果 (U+679C) in font [lmmono10-regular]:!
-Missing character: There is no 选 (U+9009) in font [lmmono10-regular]:!
-Missing character: There is no 择 (U+62E9) in font [lmmono10-regular]:!
-Missing character: There is no 依 (U+4F9D) in font [lmmono10-regular]:!
-Missing character: There is no 赖 (U+8D56) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 或 (U+6216) in font [lmmono10-regular]:!
-Missing character: There is no 少 (U+5C11) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 几 (U+51E0) in font [lmmono10-regular]:!
-Missing character: There is no 项 (U+9879) in font [lmmono10-regular]:!
-Missing character: There is no 体 (U+4F53) in font [lmmono10-regular]:!
-Missing character: There is no 育 (U+80B2) in font [lmmono10-regular]:!
-Missing character: There is no 赛 (U+8D5B) in font [lmmono10-regular]:!
-Missing character: There is no 事 (U+4E8B) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 国 (U+56FD) in font [lmmono10-regular]:!
-Missing character: There is no 家 (U+5BB6) in font [lmmono10-regular]:!
-Missing character: There is no 数 (U+6570) in font [lmmono10-regular]:!
-Missing character: There is no 据 (U+636E) in font [lmmono10-regular]:!
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[34]
-Missing character: There is no 创 (U+521B) in font [lmmono10-regular]:!
-Missing character: There is no 建 (U+5EFA) in font [lmmono10-regular]:!
-Missing character: There is no 一 (U+4E00) in font [lmmono10-regular]:!
-Missing character: There is no 个 (U+4E2A) in font [lmmono10-regular]:!
-Missing character: There is no 可 (U+53EF) in font [lmmono10-regular]:!
-Missing character: There is no 视 (U+89C6) in font [lmmono10-regular]:!
-Missing character: There is no 化 (U+5316) in font [lmmono10-regular]:!
-Missing character: There is no 的 (U+7684) in font [lmmono10-regular]:!
-Missing character: There is no 柱 (U+67F1) in font [lmmono10-regular]:!
-Missing character: There is no 状 (U+72B6) in font [lmmono10-regular]:!
-Missing character: There is no 图 (U+56FE) in font [lmmono10-regular]:!
-Missing character: There is no 旋 (U+65CB) in font [lmmono10-regular]:!
-Missing character: There is no 转 (U+8F6C) in font [lmmono10-regular]:!
-Missing character: There is no 轴 (U+8F74) in font [lmmono10-regular]:!
-Missing character: There is no 标 (U+6807) in font [lmmono10-regular]:!
-Missing character: There is no 签 (U+7B7E) in font [lmmono10-regular]:!
-Missing character: There is no ， (U+FF0C) in font [lmmono10-regular]:!
-Missing character: There is no 避 (U+907F) in font [lmmono10-regular]:!
-Missing character: There is no 免 (U+514D) in font [lmmono10-regular]:!
-Missing character: There is no 重 (U+91CD) in font [lmmono10-regular]:!
-Missing character: There is no 叠 (U+53E0) in font [lmmono10-regular]:!
-))
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 13.59999pt, for example:
-(fancyhdr)                \setlength{\headheight}{13.59999pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
-
-[35] (./include/ai.tex
-\c@lastpage=\count466
- [36]
+[25] (./include/ai.tex
+\c@lastpage=\count470
+ [26]
 Overfull \hbox (5.6089pt too wide) in paragraph at lines 121--125
 []\TU/TeXGyreTermesX(0)/b/n/12 Summary\TU/TeXGyreTermesX(0)/m/n/12 : Gracenote uses a proprietary algorithm to predict Olympic medal counts
  []
@@ -1975,7 +1426,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[37]
+[27]
 Overfull \hbox (0.13695pt too wide) in paragraph at lines 259--260
 []\TU/TeXGyreTermesX(0)/m/n/12 - \TU/TeXGyreTermesX(0)/b/n/12 1996\TU/TeXGyreTermesX(0)/m/n/12 : Marta coached the ”Magnificent Seven” member Kerri Strug to win the Olympic
  []
@@ -1988,7 +1439,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[38] 
+[28] 
 enddocument/afterlastpage: lastpage setting LastPage.
 (./2515374.aux)
  ***********
@@ -1996,18 +1447,18 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `2515374.out' has not changed.
-(rerunfilecheck)             Checksum: FC6D7E81480D667F8D3390E99F48F76B;6576.
+(rerunfilecheck)             Checksum: 1284D3F0BE6752E6F28874524B571D78;6740.
 Package logreq Info: Writing requests to '2515374.run.xml'.
 \openout1 = `2515374.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25383 strings out of 474773
- 481317 string characters out of 5761289
- 2049842 words of memory out of 5000000
- 47049 multiletter control sequences out of 15000+600000
+ 26874 strings out of 474773
+ 511591 string characters out of 5761289
+ 2056842 words of memory out of 5000000
+ 48525 multiletter control sequences out of 15000+600000
  573292 words of font info for 110 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 87i,13n,103p,1895b,4784s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 87i,13n,117p,1895b,4787s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on 2515374.pdf (39 pages).
+Output written on 2515374.pdf (29 pages).

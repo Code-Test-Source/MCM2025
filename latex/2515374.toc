@@ -7,36 +7,37 @@
 \contentsline {subsection}{\numberline {4.1}Model Establishment}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Result Analysis}{7}{subsection.4.2}%
 \contentsline {subsection}{\numberline {4.3}Prediction of 2028 Los Angeles Olympics}{9}{subsection.4.3}%
-\contentsline {section}{\numberline {5}Task II : Key Events}{10}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Key Events}{10}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Calculation Methods}{10}{subsubsection.5.1.1}%
+\contentsline {section}{\numberline {5}Task II : Key Events}{9}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Key Events}{9}{subsection.5.1}%
 \contentsline {section}{\numberline {6}Task III : Predicting First Medal Countries}{10}{section.6}%
 \contentsline {subsection}{\numberline {6.1}Problem Analysis}{10}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Model Establishment}{11}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.2}Model Establishment}{10}{subsection.6.2}%
 \contentsline {subsection}{\numberline {6.3}Result Analysis}{11}{subsection.6.3}%
-\contentsline {section}{\numberline {7}Task IV : Great Coach Effect}{13}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Problem Analysis}{13}{subsection.7.1}%
+\contentsline {section}{\numberline {7}Task IV : Great Coach Effect}{12}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Problem Analysis}{12}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Model Establishment : Legendary Index}{13}{subsection.7.2}%
-\contentsline {subsection}{\numberline {7.3}Lang Ping: The Great Coach}{13}{subsection.7.3}%
-\contentsline {subsection}{\numberline {7.4}Real Search for Greatness : Using the Model to discover Great Teams and Athletes}{13}{subsection.7.4}%
-\contentsline {section}{\numberline {8}Other Insights}{13}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Try to predict the medal of the 2032 Olympics}{13}{subsection.8.1}%
-\contentsline {subsection}{\numberline {8.2}Greatness and the strategy of the country Olympic committees}{14}{subsection.8.2}%
-\contentsline {section}{\numberline {9}Strength and Weakness}{14}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Strength}{14}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Weakness}{14}{subsection.9.2}%
-\contentsline {subsection}{\numberline {9.3}Further Discussions}{14}{subsection.9.3}%
-\contentsline {section}{Appendices}{15}{section*.8}%
-\contentsline {section}{Appendix \numberline {A}Code for Predicting 2028 Olympics Medal}{15}{appendix.a.A}%
-\contentsline {section}{Appendix \numberline {B}Code for Great Coach Effect}{28}{appendix.a.B}%
-\contentsline {section}{Appendix \numberline {C}Code for Predicting First Medal Countries}{31}{appendix.a.C}%
-\contentsline {section}{Appendix \numberline {D}Code for Great Athletes and Key Events}{34}{appendix.a.D}%
-\contentsline {paragraph}{\textbf {1.1. ``Predicting Olympic Medal Counts: The Effects of Economic Development on Olympic Success''}}{36}{section*.11}%
-\contentsline {paragraph}{\textbf {1.2. ``A Machine Learning Approach to Predicting Olympic Medal Counts''}}{36}{section*.12}%
-\contentsline {paragraph}{\textbf {1.3. ``The Role of Host Nation Advantage in Olympic Success''}}{37}{section*.13}%
-\contentsline {paragraph}{\textbf {2.1. ``Gracenote Olympic Medal Predictions''}}{37}{section*.15}%
-\contentsline {paragraph}{\textbf {2.2. ``Nielsen's Olympic Performance Predictions''}}{37}{section*.16}%
-\contentsline {paragraph}{\textbf {3.1. ``Predicting Olympic Medal Counts Using Bayesian Hierarchical Models''}}{37}{section*.18}%
-\contentsline {paragraph}{\textbf {3.2. ``The Economics of the Olympics: Predicting Medal Counts''}}{38}{section*.19}%
-\contentsline {paragraph}{\textbf {4.1. Olympic Medal Dataset}}{38}{section*.21}%
-\contentsline {paragraph}{\textbf {4.2. World Bank Economic Indicators}}{38}{section*.22}%
+\contentsline {subsection}{\numberline {7.3}Lang Ping: The Great Coach}{14}{subsection.7.3}%
+\contentsline {subsection}{\numberline {7.4}Three Countries to invest in `great' coach}{15}{subsection.7.4}%
+\contentsline {section}{\numberline {8}Other Insights}{16}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Try to predict the medal of the 2032 Olympics}{16}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Greatness and the strategy of the country Olympic committees}{16}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Strength and Weakness}{17}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Strength}{17}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Weakness}{17}{subsection.9.2}%
+\contentsline {subsection}{\numberline {9.3}Further Discussions}{18}{subsection.9.3}%
+\contentsline {subsubsection}{\numberline {9.3.1}Possible Optimization}{18}{subsubsection.9.3.1}%
+\contentsline {subsubsection}{\numberline {9.3.2}Challenges in practical application}{18}{subsubsection.9.3.2}%
+\contentsline {section}{Appendices}{19}{section*.23}%
+\contentsline {section}{Appendix \numberline {A}Core Code for Predicting 2028 Olympics Medal}{19}{appendix.a.A}%
+\contentsline {section}{Appendix \numberline {B}Core Code for Great Athletes and Key Events}{22}{appendix.a.B}%
+\contentsline {section}{Appendix \numberline {C}Core Code for Predicting First Medal Countries}{22}{appendix.a.C}%
+\contentsline {section}{Appendix \numberline {D}Core Code for Great Coach Effect}{23}{appendix.a.D}%
+\contentsline {paragraph}{\textbf {1.1. ``Predicting Olympic Medal Counts: The Effects of Economic Development on Olympic Success''}}{26}{section*.26}%
+\contentsline {paragraph}{\textbf {1.2. ``A Machine Learning Approach to Predicting Olympic Medal Counts''}}{26}{section*.27}%
+\contentsline {paragraph}{\textbf {1.3. ``The Role of Host Nation Advantage in Olympic Success''}}{27}{section*.28}%
+\contentsline {paragraph}{\textbf {2.1. ``Gracenote Olympic Medal Predictions''}}{27}{section*.30}%
+\contentsline {paragraph}{\textbf {2.2. ``Nielsen's Olympic Performance Predictions''}}{27}{section*.31}%
+\contentsline {paragraph}{\textbf {3.1. ``Predicting Olympic Medal Counts Using Bayesian Hierarchical Models''}}{27}{section*.33}%
+\contentsline {paragraph}{\textbf {3.2. ``The Economics of the Olympics: Predicting Medal Counts''}}{28}{section*.34}%
+\contentsline {paragraph}{\textbf {4.1. Olympic Medal Dataset}}{28}{section*.36}%
+\contentsline {paragraph}{\textbf {4.2. World Bank Economic Indicators}}{28}{section*.37}%

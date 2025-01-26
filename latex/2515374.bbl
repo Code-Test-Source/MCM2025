@@ -17,6 +17,28 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{0}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=tmA}{%
+         prefix={team},
+         prefixi={t\bibinitperiod},
+         family={members},
+         familyi={m\bibinitperiod},
+         given={All},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{mAt1}
+    \strng{fullhash}{mAt1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{howpublished}{\url{https://github.com/Code-Test-Source/MCM2025/}}
+    \field{title}{Github Repository(Open after the Contest)}
+    \field{year}{2025}
+  \endentry
+
   \entry{1}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
@@ -32,6 +54,42 @@
     \field{sortinithash}{N}
     \field{howpublished}{\url{https://www.nielsen.com/news-center/2024/virtual-medal-table-forecast/}}
     \field{title}{2024 virtual-medal-table-forecast}
+    \field{year}{2024}
+  \endentry
+
+  \entry{2}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{O}
+    \field{sortinithash}{O}
+    \field{howpublished}{\url{https://olympics.com/en/athletes/ping-lang}}
+    \field{title}{Olympics.com Biography, Lang Ping}
+    \field{year}{2024}
+  \endentry
+
+  \entry{4}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{P}
+    \field{sortinithash}{P}
+    \field{howpublished}{\url{https://sportal.eu/2024/07/29/paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal/}}
+    \field{title}{paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal}
+    \field{year}{2024}
+  \endentry
+
+  \entry{3}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{howpublished}{\url{https://usagym.org/halloffame/inductee/coaching-team-bela-martha-karolyi/}}
+    \field{title}{USA Gymnastics Hall of Fame}
+    \field{year}{2024}
+  \endentry
+
+  \entry{5}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{U}
+    \field{sortinithash}{U}
+    \field{howpublished}{\url{https://www.ussoccer.com/stories/2024/12/girma-horan-and-naeher-named-to-the-best-fifa-womens-11-hayes-named-the-best-fifa-womens-coach-of-the-year}}
+    \field{title}{USWNT Head Coach Emma Hayes Named The Best FIFA Women’s Coach of 2024}
     \field{year}{2024}
   \endentry
 \enddatalist
