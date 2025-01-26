@@ -83,7 +83,6 @@
     \field{year}{2018}
   \endentry
 
-<<<<<<< HEAD
   \entry{1}{misc}{}
     \name{author}{1}{}{%
       {{hash=N}{%
@@ -103,9 +102,8 @@
   \endentry
 
   \entry{7}{article}{}
-=======
+
   \entry{1}{article}{}
->>>>>>> caa574e30bfe3c866226100c143921b2e7ac38ca
     \name{author}{1}{}{%
       {{hash=SJ}{%
          family={Smith},
