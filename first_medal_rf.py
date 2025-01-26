@@ -79,3 +79,19 @@ plt.pie(top_10_countries['Win_Probability'], labels=top_10_countries['NOC'], aut
 plt.title('Top 10 Countries with Highest Probability of Winning a Medal for the First Time')
 plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 plt.show()
+
+# Calculate the number of countries that have not won a medal
+num_countries_no_medal = country_features[country_features['Has_Won'] == False].shape[0]
+print(f'Number of countries that have not won a medal: {num_countries_no_medal}')
+
+# Calculate the number of countries that have a probability of winning a medal greater than 0.3 and have not won a medal
+num_countries_prob_above_3 = first_time_winners[first_time_winners['Win_Probability'] > 0.3].shape[0]
+print(f'Number of countries with a probability of winning a medal greater than 0.3: {num_countries_prob_above_3}')
+
+# Plot a histogram for the win probabilities of all countries
+plt.figure(figsize=(12, 6))
+plt.hist(country_features['Win_Probability'], bins=num_countries_no_medal, color='b', alpha=0.7, edgecolor='black')
+plt.title('Distribution of Win Probabilities for All Countries')
+plt.xlabel('Win Probability')
+plt.ylabel('Number of Countries')
+plt.show()
