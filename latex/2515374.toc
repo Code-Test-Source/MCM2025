@@ -7,21 +7,22 @@
 \contentsline {section}{\numberline {3}Data Preprocessing}{5}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Data Cleaning}{5}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Garbled Code}{5}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Null Values,Duplicated Values and Outliers}{5}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2}Null, Duplicated Values and Renaming}{5}{subsubsection.3.1.2}%
 \contentsline {subsubsection}{\numberline {3.1.3}Data Splitting}{5}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Country Mapping}{5}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Model Overview}{5}{section.4}%
-\contentsline {section}{\numberline {5}Task I : Predicting the Medal of the 2028 LA Olympics}{6}{section.5}%
-\contentsline {section}{\numberline {6}Task II : Predicting First Medal Countries}{6}{section.6}%
-\contentsline {section}{\numberline {7}Task III : Great Coach Effect}{6}{section.7}%
-\contentsline {section}{\numberline {8}Task IV : Important Events and Great Athletes}{6}{section.8}%
-\contentsline {section}{\numberline {9}Other Insights}{6}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Try to predict the medal of the 2032 Olympics}{6}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Greatness and the strategy of the countries' Olympic committees}{6}{subsection.9.2}%
+\contentsline {subsubsection}{\numberline {3.1.4}Remove ice sports and athletes playing ice sports}{5}{subsubsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.2}Country Mapping}{6}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Model Overview}{6}{section.4}%
+\contentsline {section}{\numberline {5}Task I : Predicting the Medal of the 2028 LA Olympics}{7}{section.5}%
+\contentsline {section}{\numberline {6}Task II : Predicting First Medal Countries}{7}{section.6}%
+\contentsline {section}{\numberline {7}Task III : Great Coach Effect}{7}{section.7}%
+\contentsline {section}{\numberline {8}Task IV : Important Events and Great Athletes}{7}{section.8}%
+\contentsline {section}{\numberline {9}Other Insights}{7}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Try to predict the medal of the 2032 Olympics}{7}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Greatness and the strategy of the countries' Olympic committees}{7}{subsection.9.2}%
 \contentsline {section}{\numberline {10}Strength and Weakness}{8}{section.10}%
 \contentsline {subsection}{\numberline {10.1}Strength}{8}{subsection.10.1}%
 \contentsline {subsection}{\numberline {10.2}Weakness}{8}{subsection.10.2}%
-\contentsline {subsection}{\numberline {10.3}Further Discussions}{8}{subsection.10.3}%
+\contentsline {subsection}{\numberline {10.3}Further Discussions}{9}{subsection.10.3}%
 \contentsline {section}{Appendices}{10}{section*.2}%
 \contentsline {section}{Appendix \numberline {A}First appendix}{10}{appendix.a.A}%
 \contentsline {section}{Appendix \numberline {B}Second appendix}{10}{appendix.a.B}%

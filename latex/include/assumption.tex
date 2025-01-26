@@ -48,10 +48,32 @@ $T$ & &  &  \\[0.2cm]
 
 \subsubsection{Garbled Code}
 
-\subsubsection{Null Values,Duplicated Values and Outliers}
 
 
+\subsubsection{Null, Duplicated Values and Renaming}
+
+
+\begin{lstlisting}[caption=Data Cleaning]
+data.fillna(0, inplace=True)
+data.drop_duplicates(inplace=True)
+athletes.rename(columns={'Team': 'Country'}, inplace=True)
+\end{lstlisting}
+
+Team are renamed to Country in the athletes data so that there won't be Germany-1.
 
 \subsubsection{Data Splitting}
 
+\begin{lstlisting}[caption=Data Splitting]
+    data.fillna(0, inplace=True)
+    data.drop_duplicates(inplace=True)
+    athletes.rename(columns={'Team': 'Country'}, inplace=True)
+    \end{lstlisting}
+
+\subsubsection{Remove ice sports and athletes playing ice sports}
+\begin{lstlisting}[caption=Data Splitting]
+    ice_sports = ['Figure Skating', 'Ice Hockey']
+    programs = programs[~programs['Sport'].isin(ice_sports)]
+    athletes = athletes[~athletes['Sport'].isin(ice_sports)]
+\end{lstlisting}
+Before 1924, ice sports were held at the Summer Olympic Games. These two sports made their debuts at 1908 and 1920 Summer Olympics respectively, but in 1924 they were moved to the first edition of the Winter Olympic Games and became permanent fixtures on the sports program for the Winter Olympics from then on. Since their data are few, we set them aside.
 \subsection{Country Mapping}
