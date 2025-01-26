@@ -83,7 +83,29 @@
     \field{year}{2018}
   \endentry
 
+<<<<<<< HEAD
+  \entry{1}{misc}{}
+    \name{author}{1}{}{%
+      {{hash=N}{%
+         family={Nielsen},
+         familyi={N\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{N1}
+    \strng{fullhash}{N1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{N}
+    \field{sortinithash}{N}
+    \field{howpublished}{\url{https://www.nielsen.com/news-center/2024/virtual-medal-table-forecast/}}
+    \field{title}{2024 virtual-medal-table-forecast}
+    \field{year}{2024}
+  \endentry
+
+  \entry{7}{article}{}
+=======
   \entry{1}{article}{}
+>>>>>>> caa574e30bfe3c866226100c143921b2e7ac38ca
     \name{author}{1}{}{%
       {{hash=SJ}{%
          family={Smith},
