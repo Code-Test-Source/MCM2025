@@ -1,33 +1,34 @@
 \contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Background and Literature Review}{3}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Restatement of the Problem}{4}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Our Work}{5}{subsection.1.3}%
+\contentsline {subsection}{\numberline {1.3}Our Work}{4}{subsection.1.3}%
 \contentsline {section}{\numberline {2}Assumptions and Justification}{5}{section.2}%
-\contentsline {section}{\numberline {3}Notations}{6}{section.3}%
-\contentsline {section}{\numberline {4}Model Overview}{6}{section.4}%
-\contentsline {section}{\numberline {5}Task I : Predicting the Medal of the 2028 LA Olympics}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Model Establishment}{7}{subsection.5.1}%
-\contentsline {subsubsection}{\numberline {5.1.1}Control Equations and Boundary Conditions}{7}{subsubsection.5.1.1}%
-\contentsline {subsubsection}{\numberline {5.1.2}Definition of the Mean Temperature}{9}{subsubsection.5.1.2}%
-\contentsline {subsubsection}{\numberline {5.1.3}Determination of Heat Transfer Capacity}{9}{subsubsection.5.1.3}%
-\contentsline {section}{\numberline {6}Sub-model II: Adding Water Discontinuously}{9}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Heating Model}{9}{subsection.6.1}%
-\contentsline {subsubsection}{\numberline {6.1.1}Control Equations and Boundary Conditions}{9}{subsubsection.6.1.1}%
-\contentsline {subsubsection}{\numberline {6.1.2}Determination of Inflow Time and Amount}{9}{subsubsection.6.1.2}%
-\contentsline {subsection}{\numberline {6.2}Standby Model}{9}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Results}{9}{subsection.6.3}%
-\contentsline {subsubsection}{\numberline {6.3.1}Determination of Parameters}{9}{subsubsection.6.3.1}%
-\contentsline {subsubsection}{\numberline {6.3.2}Calculating Results}{10}{subsubsection.6.3.2}%
-\contentsline {section}{\numberline {7}Correction and Contrast of Sub-Models}{10}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Correction with Evaporation Heat Transfer}{10}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Contrast of Two Sub-Models}{10}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Model Analysis and Sensitivity Analysis}{10}{section.8}%
-\contentsline {subsection}{\numberline {8.1}The Influence of Different Bathtubs}{10}{subsection.8.1}%
-\contentsline {subsubsection}{\numberline {8.1.1}Different Volumes of Bathtubs}{11}{subsubsection.8.1.1}%
-\contentsline {section}{\numberline {9}Strength and Weakness}{11}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Strength}{11}{subsection.9.1}%
-\contentsline {subsection}{\numberline {9.2}Weakness}{12}{subsection.9.2}%
-\contentsline {section}{\numberline {10}Further Discussion}{12}{section.10}%
-\contentsline {section}{Appendices}{15}{section*.2}%
-\contentsline {section}{Appendix \numberline {A}First appendix}{15}{appendix.a.A}%
-\contentsline {section}{Appendix \numberline {B}Second appendix}{15}{appendix.a.B}%
+\contentsline {section}{\numberline {3}Notations}{5}{section.3}%
+\contentsline {section}{\numberline {4}Data Preprocessing}{6}{section.4}%
+\contentsline {section}{\numberline {5}Model Overview}{6}{section.5}%
+\contentsline {section}{\numberline {6}Task I : Predicting the Medal of the 2028 LA Olympics}{6}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Model Establishment}{6}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Control Equations and Boundary Conditions}{6}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Definition of the Mean Temperature}{8}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Determination of Heat Transfer Capacity}{8}{subsubsection.6.1.3}%
+\contentsline {section}{\numberline {7}Sub-model II: Adding Water Discontinuously}{8}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Heating Model}{9}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {7.1.1}Control Equations and Boundary Conditions}{9}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {7.1.2}Determination of Inflow Time and Amount}{9}{subsubsection.7.1.2}%
+\contentsline {subsection}{\numberline {7.2}Standby Model}{9}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.3}Results}{9}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.3.1}Determination of Parameters}{9}{subsubsection.7.3.1}%
+\contentsline {subsubsection}{\numberline {7.3.2}Calculating Results}{9}{subsubsection.7.3.2}%
+\contentsline {section}{\numberline {8}Correction and Contrast of Sub-Models}{9}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Correction with Evaporation Heat Transfer}{10}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Contrast of Two Sub-Models}{10}{subsection.8.2}%
+\contentsline {section}{\numberline {9}Model Analysis and Sensitivity Analysis}{10}{section.9}%
+\contentsline {subsection}{\numberline {9.1}The Influence of Different Bathtubs}{10}{subsection.9.1}%
+\contentsline {subsubsection}{\numberline {9.1.1}Different Volumes of Bathtubs}{10}{subsubsection.9.1.1}%
+\contentsline {section}{\numberline {10}Strength and Weakness}{11}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Strength}{11}{subsection.10.1}%
+\contentsline {subsection}{\numberline {10.2}Weakness}{11}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Further Discussion}{11}{section.11}%
+\contentsline {section}{Appendices}{14}{section*.2}%
+\contentsline {section}{Appendix \numberline {A}First appendix}{14}{appendix.a.A}%
+\contentsline {section}{Appendix \numberline {B}Second appendix}{14}{appendix.a.B}%

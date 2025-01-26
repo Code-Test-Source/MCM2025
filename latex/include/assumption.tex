@@ -1,16 +1,27 @@
 
 \section{Assumptions and Justification}
 
-To simplify the problem, make it convenient for us to construct simulation model and ensure the effectiveness of the model, we make the following basic assumptions, each of which is properly justified.
+To simplify problem, make it convenient to construct simulation model and ensure it's effectiveness, following basic assumptions are made, each of which is properly justified.
 
 \begin{itemize}
-\item {\bf Data preprocess}. We've examined that most of the data provided by the problem is accurate and reliable, although some may not be the same as other data. However, in order to provide an effective and accurate model, we will preprocess the data to make it more suitable.We set the ice sports aside, combine various teams of one country, and map the countries which no longer exist to the current existing country 
+\item {\bf Data Preprocess and Country Mapping}. 
 
-\item {\bf All the physical properties of bath water, bathtub and air are assumed to be stable}. The change of those properties like specific heat, thermal conductivity and density is rather small according to some studies \cite{5}. It is complicated and unnecessary to consider these little change so we ignore them.
+Data is cleaned and preprocessed to make it more suitable. We set the ice sports aside, combine various teams of one country, and map the countries which no longer exist to the current existing country. It's a rather difficult task since countries have changed a lot during the past century, but it's necessary to stick to the current world map.
 
-\item {\bf There is no internal heat source in the system consisting of bathtub, hot water and air}. Before the person lies in the bathtub, no internal heat source exist except the system components. The circumstance where the person is in the bathtub will be investigated in our later discussion.
+\item {\bf Relationship between Medal counts and Historical data}. 
 
-\item {\bf We ignore radiative thermal exchange}. According to Stefan-Boltzmann’s law, the radiative thermal exchange can be ignored when the temperature is low. Refer to industrial standard \cite{6}, the temperature in bathroom is lower than 100 $^{\circ}$C, so it is reasonable for us to make this assumption.
+Most data provided is examined to be accurate and reliable, although some may not be the same as the data provided from other sources. Few of the data is examined and changed since it's too faraway from reality. Medal counts are also assumed to be related to multiple variables:years, gender, athletes and number of sports, diciplines, events,etc.
 
-\item {\bf The temperature of the adding hot water from the faucet is stable}. This hypothesis can be easily achieved in reality and will simplify our process of solving the problem.
+\item {\bf Countries that will possibly take part in the 2028 Olympics}. 
+
+Countries that have taken part in 2024 Olympics will also take part in 2028 Olympics. There's no reason for them not to attend the Olympics, and it's impossible to estimate medal of new countries if they've never taken part in the Olympics using historical data. Russia is also assumed to participate in the 2028 Olympics, whether the athletes will be able to compete under the Russian flag or not, their country is called Russia. 
+
+\item {\bf Possible Sports in 2028}. 
+
+There's said to be five new sports in the 2028 Olympics, but we set them aside because we don't have enough data to predict the medal counts of these events. Similarly, we set aside the sports that will be removed from the Olympics in 2028, and assume that most sports are like that in 2024 or their most common appearance in history(Such as gymnastics).
+
+
 \end{itemize}
+
+Other details will be stated in the following sections when we discuss the specific models.
+
