@@ -42,8 +42,10 @@ $\rho$ & &  &  \\[0.2cm]
 
 \section{Data Preprocessing}
 \subsection{Data Cleaning}
+\begin{itemize}
+    \item \textbf{Garbled Code}
+\end{itemize}
 
-\subsubsection{Garbled Code}
 \begin{figure}[h]
     \centering
     \begin{minipage}{0.8\textwidth}
@@ -62,8 +64,9 @@ $\rho$ & &  &  \\[0.2cm]
 
 We carefully examine the data and find that there are some garbled codes in the data, which may be caused by the encoding of the data. They are replaced by the correct text.
 
-\subsubsection{Null, Duplicated Values and Renaming}
-
+\begin{itemize}
+    \item \textbf{Null, Duplicated Values and Renaming}
+\end{itemize}
 
 \begin{lstlisting}[caption=Data Cleaning]
 data.fillna(0, inplace=True)
@@ -73,7 +76,9 @@ athletes.rename(columns={'Team': 'Country'}, inplace=True)
 
 Team are renamed to Country in the athletes data so that there won't be Germany-1.
 
-\subsubsection{Data Splitting}
+\begin{itemize}
+    \item \textbf{Data Splitting}
+\end{itemize}
 
 \begin{lstlisting}[caption=Data Splitting]
     data.fillna(0, inplace=True)
@@ -81,7 +86,9 @@ Team are renamed to Country in the athletes data so that there won't be Germany-
     athletes.rename(columns={'Team': 'Country'}, inplace=True)
     \end{lstlisting}
 
-\subsubsection{Remove unnecessary data}
+    \begin{itemize}
+        \item \textbf{Remove unnecessary data}
+    \end{itemize}
 \begin{lstlisting}[caption=Remove Ice Sports]
     ice_sports = ['Figure Skating', 'Ice Hockey']
     programs = programs[~programs['Sport'].isin(ice_sports)]
@@ -112,13 +119,13 @@ medals['NOC'] = medals['NOC'].replace(country_mapping)
 
 \begin{figure}[h]
     \centering
-    \begin{minipage}{0.5\textwidth}
+    \begin{minipage}{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{../figures/top_10_countries.png}
         \caption{top $10$ countries}
         \label{fig:top_10_countries}
     \end{minipage}\hfill
-    \begin{minipage}{0.5\textwidth}
+    \begin{minipage}{0.4\textwidth}
         \centering
         \includegraphics[width=\textwidth]{../figures/top_10_athletes.png}
         \caption{top $10$ athletes}
