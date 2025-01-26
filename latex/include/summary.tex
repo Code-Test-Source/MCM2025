@@ -10,7 +10,7 @@
 
     After that, we encode country labels, create feature dataset of each country,and filter out data for countries that won medals in 1896 to construct training and testing datasets of the feature of `First Win Country'.\textbf{Random Forest} is used to train the model, and the results of the top ten countries most likely to win their first medal in 2028 are shown in the form of a bar chart.
 
-    Events:'01lightyear' to write.
+    Events: By analyzing the data given, we've found that some specific sports and events play a significant role in the medal tally of some specific countries, for example, long distance race for Kenya. We calculate the \textbf{proportion} of medals from these events, further estimate their importance, and finally come to the result of the extent to which choosing these events impact countries performance in the medal list.
 
     Finally, we combined methods used above and created a comprehensive prediction model called \textbf{`PRE'} model, naming after the primary methods we use. The model is specifically-tuned to calculate \textbf{Legendary Index} so as to detect \textbf{Legendary Couch Effect }using data of US gymnastics team coached by Bela Karolyi and Marta Karolyi. Lang Ping is successfully detected as a legendary coach, and we've found many more great teams and athletes, even controversial results(2024 Male Fencing,Italy) and decline of the great ranks(2024 Tennis,China).
 
