@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.26)  26 JAN 2025 11:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.26)  26 JAN 2025 11:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -962,21 +962,20 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
  [2] (./include/introduction.tex
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
 (Font)              scaled to size 14.4pt on input line 3.
-LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 12.
+LaTeX Font Info:    Trying to load font information for TS1+ntxtlf on input line 20.
  (c:/texlive/2024/texmf-dist/tex/latex/newtx/ts1ntxtlf.fd
 File: ts1ntxtlf.fd 2015/01/18 v1.0 fd file for TS1/ntxtlf
 )
 LaTeX Font Info:    Font shape `TS1/ntxtlf/m/n' will be
-(Font)              scaled to size 12.0pt on input line 12.
-) (./include/assumption.tex
+(Font)              scaled to size 12.0pt on input line 20.
 LaTeX Font Info:    Font shape `T1/ntxtlf/m/n' will be
-(Font)              scaled to size 10.95pt on input line 7.
-LaTeX Font Info:    Trying to load font information for T1+fvs on input line 7.
+(Font)              scaled to size 10.95pt on input line 39.
+LaTeX Font Info:    Trying to load font information for T1+fvs on input line 39.
  (c:/texlive/2024/texmf-dist/tex/latex/bera/t1fvs.fd
 File: t1fvs.fd 2004/09/07 scalable font definitions for T1/fvs.
 )
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 7.
+(Font)              scaled to size 9.85492pt on input line 39.
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -985,7 +984,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]) (./include/notation.tex
+[3{c:/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc}{c:/texlive/2024/texmf-dist/fonts/enc/dvips/tex-gyre/q-ts1.enc}]) (./include/assumption.tex) (./include/notation.tex
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 13.59999pt, for example:
@@ -1163,7 +1162,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,13n,102p,1878b,2366s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><c:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 2515374.pdf (17 pages, 397427 bytes).
+Output written on 2515374.pdf (17 pages, 398315 bytes).
 PDF statistics:
  446 PDF objects out of 1000 (max. 8388607)
  390 compressed objects within 4 object streams
