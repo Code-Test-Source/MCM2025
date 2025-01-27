@@ -38,7 +38,7 @@ in the coming LA Olympics, the USA is likely to gain more medals due to the \tex
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{./figures/refer_KS_other.png}
-    \caption{Specific result during training and estimation}
+    \caption{Measures of Performance}
     \label{fig:refer_KS_other}
 \end{figure}
 
@@ -49,19 +49,24 @@ From Figure2, we can see that the prediction of XGBoost outperformed the predici
 
 As to the specific principle of XGBoost:
 
-$\hat{y}_i^{(t)} = \hat{y}_i^{(t-1)} + f_t(x_i)$
+\begin{center}
+    $\hat{y}_i^{(t)} = \hat{y}_i^{(t-1)} + f_t(x_i)$
+\end{center}
 
 The loss function and the objective function are as follows:
 
 $L(\hat{y}_i^{(t-1)}, y_i)$ \quad \text{loss function} $y_i$ \text{prediction from the first to the t-1th tree} $\hat{y}_i^{(t-1)}$
 
 The complete objective function (loss function plus regularization term) can be represented as:
-
-$\mathcal{L}^{(t)} = \sum_{i=1}^n L(\hat{y}_i^{(t-1)}, y_i) + \Omega(f_t)$
+\begin{center}
+    $\mathcal{L}^{(t)} = \sum_{i=1}^n L(\hat{y}_i^{(t-1)}, y_i) + \Omega(f_t)$
+\end{center}
 
 where $\Omega(f_t)$ is the model complexity of the t-th tree, which can be expressed as:
 
-$\Omega(f_t) = \gamma T + \frac{1}{2} \lambda \sum_{j=1}^T w_j^2$
+\begin{center}
+    $\Omega(f_t) = \gamma T + \frac{1}{2} \lambda \sum_{j=1}^T w_j^2$
+\end{center}
 
 where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, and $\gamma$ and $\lambda$ are regularization parameters.
 

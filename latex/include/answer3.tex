@@ -3,7 +3,7 @@
 \section{Task IV : Great Coach Effect}
 
 \subsection{Problem Analysis}
-According to the reference:
+It's not easy for athletes to serve in teams of different nations, but coaches can
 
 Two possible examples of this include Lang Ping[2],
 who coached volleyball teams from both the U.S. and China to championships, and the
@@ -26,6 +26,8 @@ Bela and Marta instructed the US gym team in the following years:
 
 Since there's too little data of Lang Ping, we decide to use Bela and Marta as an example to train data. We use comprehensive methods developed by previous tasks and establish the last part of our \textbf{`PRE'} model : \textbf{Legendary Index} .
 
+To find out coaches influence on some achievements of certain countries in the history, we define \textbf{Legendary index}, representing the greatness of a country's achievement during a certain period.
+Then, by analyzing those with a high \textbf{Legendary index}, we can find out the impact of \textbf{Great Coaches}
 
 \subsection{Model Establishment : Legendary Index}
 We rearrange the data by Sport, NOC, and Sex. 
@@ -85,9 +87,20 @@ legendary_coach_results = pd.DataFrame()
           
 \end{lstlisting}
 
+Part of the calculation is in \textbf{Figure \ref{fig:legendary_index_detailed}}.
+
+Because of the limitation of the dataa of Bela and Marta, we can't get a very accurate Legendary Index. But it can still serve as a indication of greatness.
+
+\begin{figure}[h]
+\centering
+    \includegraphics[width=1\textwidth]{./figures/Lengendary_index_detailed.png}
+    \caption{Legendary index of certain events}
+    \label{fig:legendary_index_detailed}
+\end{figure}
+
 \subsection{Lang Ping: The Great Coach}
 
-Fortunatly, We've found Lang Ping in the Predicted Great Coach.
+Fortunately, We've found Lang Ping in the Predicted Great Coach.
 
 \begin{figure}[h]
     \centering
@@ -115,7 +128,7 @@ Fortunatly, We've found Lang Ping in the Predicted Great Coach.
 
 Besides Lang Ping, other great achievements are also detected. Although we don't have enough time to check every achievements with the information of the internet, every data we have checked is really great achievement.
 
-Chinese Table Tennis and Gymnastics are selected as the most famous examples. 1996, 2000, 2008 and 2020 are great years for Chinese Male Table Tennis team, while 2024 is not although they got the gold medal.
+Shown in \textbf{Figure \ref{fig:lang_ping_combined}}, Chinese Table Tennis and Gymnastics are selected as the most famous examples. 1996, 2000, 2008 and 2020 are great years for Chinese Male Table Tennis team, while 2024 is not although they got the gold medal.
 
 We've even found interesting data of controversial results caused by the penalty awarded by referee.In 2024, Italy fencing is very close to greatness, and they've complained about the referee's decision.[4]
 
