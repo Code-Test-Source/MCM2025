@@ -74,9 +74,10 @@ country_features.to_csv('./2025_Problem_C_Data/first_win_predictions.csv', index
 import matplotlib.pyplot as plt
 
 top_10_countries = first_time_winners.head(10)
+colors = ['#63b2ee', '#76da91', '#f8cb7f', '#f89588', '#7cd6cf', '#9192ab', '#7898e1', '#efa666', '#eddd86', '#9987ce']
 plt.figure(figsize=(10, 7))
-plt.pie(top_10_countries['Win_Probability'], labels=top_10_countries['NOC'], autopct='%1.1f%%', startangle=140)
-plt.title('Top 10 Countries with Highest Probability of Winning a Medal for the First Time')
+plt.pie(top_10_countries['Win_Probability'], labels=top_10_countries['NOC'], autopct='%1.1f%%', startangle=140, colors=colors, radius=1.2, textprops={'fontsize': 12})
+plt.title('Top 10 Countries with Highest Probability of Winning a Medal for the First Time', fontsize=16)
 plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
 plt.show()
 

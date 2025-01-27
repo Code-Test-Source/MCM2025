@@ -14,6 +14,12 @@ in the coming LA Olympics, the USA is likely to gain more medals due to the \tex
 
 \subsection{Result Analysis}
 
+
+According to the results graphs following:
+
+Our model is of decent accuracy, and have an acceptable performance on test set.
+
+
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=1\textwidth]{./figures/Cor_Matrix.png}
@@ -42,10 +48,7 @@ in the coming LA Olympics, the USA is likely to gain more medals due to the \tex
     \label{fig:refer_KS_other}
 \end{figure}
 
-According to the results graphs following, we can see that our model is of good accuracy, and have a good performance on test set.
-
-
-From Figure2, we can see that the prediction of XGBoost outperformed the prediciton of Random Forest Predicitons, which is one of the reason for our choice of model.
+From \textbf{Figure \ref{fig:K-S_0}}, we can see that the prediction of XGBoost outperformed the prediciton of Random Forest Predicitons, which is one of the reason for our choice of model.
 
 As to the specific principle of XGBoost:
 
@@ -95,3 +98,10 @@ where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, 
 
 As is shown in the table, Ranking may be changed a lot due to the interval of our estimation.
 
+According to our prediction, th United States is likely to win the most medals in the 2028 Los Angeles Olympics, followed by China and Russia( cause we assume that Russia take place ). Obviously, the United States is most likely to improve its performance in the 2028 Los Angeles Olympics, because it's the host country and they have been performing very well to rank top 1, 2 or 3 for a long time in history.
+
+Russia is a rather special case, since it's performance is almost unpredictable.With the largest interval, it's hard to know whether Russian athletes will improve their performance or not. They have taken too much pressure because of war and doping scandals, which may affect their performance in the future.
+
+Other countries like China, Japan, Germany, Netherlands and so on are very likely to get more medals too. We are not listing all of the countries here, but top 10 countries indicate the main trend.
+
+France is sure to do worse after an excellent performance in the 2024 Paris Olympics, since it's not host country any more. Italy is likely to maintain its performance, while Australia is estimated by our model to do worse although their medal counts are seemingly increasing recent years.

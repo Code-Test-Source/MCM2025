@@ -1,7 +1,7 @@
 
 \section{Assumptions and Notations}
 
-\subsection*{Assumptions and Justifications}
+\subsection{Assumptions and Justifications}
 
 To simplify problem, make it convenient to construct simulation model and ensure it's effectiveness, following basic assumptions are made, each of which is properly justified.
 
@@ -27,18 +27,19 @@ There's said to be five new sports in the 2028 Olympics, but we set them aside b
 
 Other details will be stated in the following sections when we discuss the specific models.
 
-\subsection*{Notations}
+\subsection{Notations}
 
 \begin{center}
 \begin{tabular}{clcl}
 {\bf Symbols} & {\bf Definitions} & {\bf Symbols} & \quad {\bf Definitions} \\[0.25cm]
-$N_u$ & Number of countries that have not won a medal & $a$ &  aaaaaaaaaaaaaaaaaaaaa \\[0.2cm]
-$k$ & &  & \\[0.2cm]
-$c_p$ & &  &  \\[0.2cm]
-$\rho$ & &  &  \\[0.2cm]
+$N_u$ & Number of no medal countries & $\text{I}_{f}$ &  Feature Importance \\[0.2cm]
+$\text{P}_{total}$ & Total Key Event index of a country & $\text{I}_{m}(s,j)$ & Impurity for split $s$ on feature $j$ \\[0.2cm]
+$\text{M}_{ei}$ & Medal counts of event $i$ & $h_k(\mathbf{x})$ & Leaf value of multiple features $x$\\[0.2cm]
+$\text{M}_{tc}$ & Total number of medals for country & $\alpha_k$ & Weight for leaf value $k$ \\[0.2cm]
+$\text{X}_{c}$ & Centered variables using PCA & $L(\theta)$ & Legendary Index \\[0.2cm]
 \end{tabular}
 \end{center}
-\noindent Define the Main parameters. Other Specific notations will be listed and explained later.
+\noindent Define the Main Parameters. Other Specific Notations will be listed and explained later.
 
 \section{Data Preprocessing}
 \subsection{Data Cleaning}

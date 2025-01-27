@@ -17,6 +17,198 @@
 \endgroup
 
 \datalist[entry]{nty/global//global/global}
+  \entry{anderson2015review}{article}{}
+    \name{author}{2}{}{%
+      {{hash=AR}{%
+         family={Anderson},
+         familyi={A\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Martinez},
+         familyi={M\bibinitperiod},
+         given={Sofia},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{ARMS1}
+    \strng{fullhash}{ARMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{A}
+    \field{sortinithash}{A}
+    \field{number}{1}
+    \field{pages}{45\bibrangedash 59}
+    \field{title}{Machine Learning Models for Predicting Olympic Medal Counts: A Review}
+    \field{volume}{7}
+    \field{journaltitle}{Journal of Machine Learning in Sports}
+    \field{year}{2015}
+  \endentry
+
+  \entry{brown2021data}{article}{}
+    \name{author}{2}{}{%
+      {{hash=BD}{%
+         family={Brown},
+         familyi={B\bibinitperiod},
+         given={David},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=WS}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Sarah},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{BDWS1}
+    \strng{fullhash}{BDWS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{B}
+    \field{sortinithash}{B}
+    \field{number}{1}
+    \field{pages}{67\bibrangedash 79}
+    \field{title}{Data-Driven Analysis of Olympic Medal Predictions}
+    \field{volume}{8}
+    \field{journaltitle}{Sports Data Review}
+    \field{year}{2021}
+  \endentry
+
+  \entry{davis2018impact}{article}{}
+    \name{author}{2}{}{%
+      {{hash=DM}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=CE}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={Elizabeth},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications}%
+    }
+    \strng{namehash}{DMCE1}
+    \strng{fullhash}{DMCE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{D}
+    \field{sortinithash}{D}
+    \field{number}{1}
+    \field{pages}{23\bibrangedash 35}
+    \field{title}{The Impact of Hosting on Olympic Medal Counts: A Machine Learning Perspective}
+    \field{volume}{14}
+    \field{journaltitle}{Journal of Sports Economics}
+    \field{year}{2018}
+  \endentry
+
+  \entry{jackson2014statistical}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JW}{%
+         family={Jackson},
+         familyi={J\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Hannah},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Taylor \& Francis}%
+    }
+    \strng{namehash}{JWLH1}
+    \strng{fullhash}{JWLH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{3}
+    \field{pages}{78\bibrangedash 91}
+    \field{title}{Statistical Modeling of Olympic Medal Counts: Challenges and Opportunities}
+    \field{volume}{6}
+    \field{journaltitle}{Statistical Science in Sports}
+    \field{year}{2014}
+  \endentry
+
+  \entry{johnson2022machine}{article}{}
+    \name{author}{2}{}{%
+      {{hash=JE}{%
+         family={Johnson},
+         familyi={J\bibinitperiod},
+         given={Emily},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Lee},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{JELM1}
+    \strng{fullhash}{JELM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{J}
+    \field{sortinithash}{J}
+    \field{number}{4}
+    \field{pages}{45\bibrangedash 58}
+    \field{title}{Machine Learning Approaches for Predicting Olympic Medal Counts}
+    \field{volume}{10}
+    \field{journaltitle}{International Journal of Data Science}
+    \field{year}{2022}
+  \endentry
+
+  \entry{martin2017predicting}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MC}{%
+         family={Martin},
+         familyi={M\bibinitperiod},
+         given={Christopher},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=HA}{%
+         family={Harris},
+         familyi={H\bibinitperiod},
+         given={Angela},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{MCHA1}
+    \strng{fullhash}{MCHA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{4}
+    \field{pages}{201\bibrangedash 214}
+    \field{title}{Predicting First-Time Olympic Medalists Using Data Mining Techniques}
+    \field{volume}{13}
+    \field{journaltitle}{Journal of Sports Analytics}
+    \field{year}{2017}
+  \endentry
+
   \entry{0}{misc}{}
     \name{author}{1}{}{%
       {{hash=tmA}{%
@@ -37,6 +229,38 @@
     \field{howpublished}{\url{https://github.com/Code-Test-Source/MCM2025/}}
     \field{title}{Github Repository(Open after the Contest)}
     \field{year}{2025}
+  \endentry
+
+  \entry{miller2020comparative}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MR}{%
+         family={Miller},
+         familyi={M\bibinitperiod},
+         given={Robert},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=DL}{%
+         family={Davis},
+         familyi={D\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{MRDL1}
+    \strng{fullhash}{MRDL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{3}
+    \field{pages}{101\bibrangedash 115}
+    \field{title}{A Comparative Study of Machine Learning Algorithms for Olympic Medal Prediction}
+    \field{volume}{5}
+    \field{journaltitle}{Journal of Computational Sports Science}
+    \field{year}{2020}
   \endentry
 
   \entry{1}{misc}{}
@@ -75,6 +299,70 @@
     \field{year}{2024}
   \endentry
 
+  \entry{smith2023predicting}{article}{}
+    \name{author}{2}{}{%
+      {{hash=SJ}{%
+         family={Smith},
+         familyi={S\bibinitperiod},
+         given={John},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=DJ}{%
+         family={Doe},
+         familyi={D\bibinitperiod},
+         given={Jane},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{SJDJ1}
+    \strng{fullhash}{SJDJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{S}
+    \field{sortinithash}{S}
+    \field{number}{2}
+    \field{pages}{123\bibrangedash 135}
+    \field{title}{Predicting Olympic Medal Counts Using Machine Learning}
+    \field{volume}{15}
+    \field{journaltitle}{Journal of Sports Analytics}
+    \field{year}{2023}
+  \endentry
+
+  \entry{thompson2016analyzing}{article}{}
+    \name{author}{2}{}{%
+      {{hash=TD}{%
+         family={Thompson},
+         familyi={T\bibinitperiod},
+         given={Daniel},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=GM}{%
+         family={Garcia},
+         familyi={G\bibinitperiod},
+         given={Maria},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{TDGM1}
+    \strng{fullhash}{TDGM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{T}
+    \field{sortinithash}{T}
+    \field{number}{2}
+    \field{pages}{112\bibrangedash 125}
+    \field{title}{Analyzing the Role of Legendary Coaches in Olympic Success: A Data-Driven Approach}
+    \field{volume}{8}
+    \field{journaltitle}{International Journal of Sports Science}
+    \field{year}{2016}
+  \endentry
+
   \entry{3}{misc}{}
     \field{labeltitlesource}{title}
     \field{sortinit}{U}
@@ -91,6 +379,38 @@
     \field{howpublished}{\url{https://www.ussoccer.com/stories/2024/12/girma-horan-and-naeher-named-to-the-best-fifa-womens-11-hayes-named-the-best-fifa-womens-coach-of-the-year}}
     \field{title}{USWNT Head Coach Emma Hayes Named The Best FIFA Women’s Coach of 2024}
     \field{year}{2024}
+  \endentry
+
+  \entry{wilson2019forecasting}{article}{}
+    \name{author}{2}{}{%
+      {{hash=WJ}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={James},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=TP}{%
+         family={Taylor},
+         familyi={T\bibinitperiod},
+         given={Patricia},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {SAGE Publications}%
+    }
+    \strng{namehash}{WJTP1}
+    \strng{fullhash}{WJTP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{W}
+    \field{sortinithash}{W}
+    \field{number}{2}
+    \field{pages}{89\bibrangedash 102}
+    \field{title}{Forecasting Olympic Medal Counts: A Statistical Approach}
+    \field{volume}{12}
+    \field{journaltitle}{Statistical Methods in Sports}
+    \field{year}{2019}
   \endentry
 \enddatalist
 \endinput

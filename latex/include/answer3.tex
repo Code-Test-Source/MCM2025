@@ -8,7 +8,7 @@ It's not easy for athletes to serve in teams of different nations, but coaches c
 Two possible examples of this include Lang Ping[2],
 who coached volleyball teams from both the U.S. and China to championships, and the
 sometimes-controversial gymnastics coach, Béla Károlyi[3], who coached Romania and
-then the U.S. women’s teams with great success. 
+then the U.S. women's teams with great success. 
 
 Bela and Marta instructed the US gym team in the following years:
 
@@ -26,8 +26,8 @@ Bela and Marta instructed the US gym team in the following years:
 
 Since there's too little data of Lang Ping, we decide to use Bela and Marta as an example to train data. We use comprehensive methods developed by previous tasks and establish the last part of our \textbf{`PRE'} model : \textbf{Legendary Index} .
 
-To find out coaches influence on some achievements of certain countries in the history, we define \textbf{Legendary index}, representing the greatness of a country's achievement during a certain period.
-Then, by analyzing those with a high \textbf{Legendary index}, we can find out the impact of \textbf{Great Coaches}
+To find out coaches influence on some achievements of certain countries in the history, we define \textbf{Legendary Index}, representing the greatness of a country's achievement during a certain period.
+Then, by analyzing those with a high \textbf{Legendary Index}, we can find out the impact of \textbf{Great Coaches}
 
 \subsection{Model Establishment : Legendary Index}
 We rearrange the data by Sport, NOC, and Sex. 
@@ -88,6 +88,16 @@ legendary_coach_results = pd.DataFrame()
 \end{lstlisting}
 
 Part of the calculation is in \textbf{Figure \ref{fig:legendary_index_detailed}}.
+
+This is the real calculation formula behind the code:
+\begin{center}
+$ x = [\textit{`Year'}, \textit{`Total'}, \textit{`Gold'}, \textit{`Silver'}, \textit{`Bronze'}, \textit{`No medal'}]$
+
+$\hat{y} = \sum_{k=1}^{K} \alpha_k h_k(x)$
+
+$L(\theta) = \sum_{i=1}^{n} \left( y_i - \hat{y}_i \right)^2 + \sum_{k=1}^{K} \left( \gamma T_k + \frac{1}{2} \lambda \sum_{j=1}^{T_k} w_{kj}^2 \right)$
+
+\end{center}
 
 Because of the limitation of the dataa of Bela and Marta, we can't get a very accurate Legendary Index. But it can still serve as a indication of greatness.
 
