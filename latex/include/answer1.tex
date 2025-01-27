@@ -24,7 +24,7 @@ in the coming LA Olympics, the USA is likely to gain more medals due to the \tex
 \begin{figure}[htbp]
     \centering
     \includegraphics[width=0.8\textwidth]{./figures/K-S_0.png}
-    \caption{Precision of the estimation}
+    \caption{Method Comparison}
     \label{fig:K-S_0}
 \end{figure}
 
@@ -73,23 +73,25 @@ where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, 
 \subsection{Prediction of 2028 Los Angeles Olympics}
 \begin{table}[htbp]
     \centering
-    \caption{Predicted Medal Table of 2028 Los Angeles Olympics}
+    \caption{Predicted Medal Table of 2028 Los Angeles Olympics with Prediction Intervals}
     \begin{tabular}{|c|c|c|c|c|c|}
         \hline
-        Rank & NOC & Gold & Silver & Bronze & Total \\
+        Rank & NOC & Gold (Interval) & Silver (Interval) & Bronze (Interval) & Total (Interval) \\
         \hline
-        1 & United States & 49 & 46 & 44 & 139 \\
-        2 & China & 38 & 30 & 29 & 97 \\
-        3 & Russia & 28 & 25 & 22 & 75 \\
-        4 & United Kingdom & 27 & 23 & 20 & 70 \\
-        5 & Japan & 22 & 19 & 17 & 58 \\
-        6 & Australia & 17 & 15 & 13 & 45 \\
-        7 & Italy & 15 & 13 & 12 & 40 \\
-        8 & Netherlands & 13 & 12 & 11 & 36 \\
-        9 & France & 14 & 12 & 9 & 35 \\
-        10 & Germany & 15 & 12 & 8 & 35 \\
+        1 & United States & 49 (45, 53) & 46 (42, 50) & 44 (40, 48) & 139 (127, 151) \\
+        2 & China & 38 (35, 41) & 30 (27, 33) & 29 (26, 32) & 97 (88, 106) \\
+        3 & Russia & 28 (23, 33) & 25 (20, 30) & 22 (17, 27) & 75 (60, 90) \\
+        4 & United Kingdom & 27 (25, 29) & 23 (21, 25) & 20 (18, 22) & 70 (64, 76) \\
+        5 & Japan & 22 (20, 24) & 19 (17, 21) & 17 (15, 19) & 58 (52, 64) \\
+        6 & Australia & 17 (15, 19) & 15 (13, 17) & 13 (11, 15) & 45 (39, 51) \\
+        7 & Italy & 15 (13, 17) & 13 (11, 15) & 12 (10, 14) & 40 (34, 46) \\
+        8 & Netherlands & 13 (12, 14) & 12 (11, 13) & 11 (10, 12) & 36 (33, 39) \\
+        9 & France & 14 (12, 16) & 12 (10, 14) & 9 (7, 11) & 35 (29, 41) \\
+        10 & Germany & 15 (13, 17) & 12 (10, 14) & 8 (6, 10) & 35 (29, 41) \\
         \hline
     \end{tabular}
     \label{tab:2028}
 \end{table}
+
+As is shown in the table, Ranking may be changed a lot due to the interval of our estimation.
 

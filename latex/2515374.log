@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  27 JAN 2025 10:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2025.1.17)  27 JAN 2025 10:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1120,7 +1120,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller to compensate:
 (fancyhdr)                \addtolength{\topmargin}{-1.59999pt}.
 
-[8 <./figures/K-S_0.png> <./figures/K-S_4.png>]) (./include/answer4.tex
+[8 <./figures/K-S_0.png> <./figures/K-S_4.png>]
+Overfull \hbox (14.821pt too wide) in paragraph at lines 77--94
+ [][] 
+ []
+
+) (./include/answer4.tex
 <./figures/Key_event.png, id=290, 867.24pt x 578.16pt>
 File: ./figures/Key_event.png Graphic file (type png)
 <use ./figures/Key_event.png>
@@ -1404,7 +1409,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  90i,13n,117p,1895b,2317s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/tex-gyre/qtmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmb.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmr.pfb><d:/texlive/2024/texmf-dist/fonts/type1/public/newtx/ztmri.pfb>
-Output written on 2515374.pdf (30 pages, 1208654 bytes).
+Output written on 2515374.pdf (30 pages, 1209008 bytes).
 PDF statistics:
  925 PDF objects out of 1000 (max. 8388607)
  820 compressed objects within 9 object streams
