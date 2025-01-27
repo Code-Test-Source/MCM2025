@@ -18,13 +18,13 @@ Also, we can exclude these factors to more explicitly discuss other elements whi
 \begin{figure}[h]
     \centering
     \includegraphics[width=1\textwidth]{./figures/Legendary_index.png}
-    \caption{Legendary index of certain events}
+    \caption{Legendary Index of certain events}
     \label{fig:legendary_index}
     \end{figure}
 The graph above shows a part of the calculation result. We find out that a high \textbf{Legendary Index} is of higher probability be due to \textbf{Great Coach} when a \textbf{Great Athlete} is absent.
 
 As to the strategy of the country Olympic committees, we give the calculation result as the suggestion that a \textbf{Legendary Index} higher than 0.68 means a high potential of future success.
-It means that the committees can invest more in this certain sport/event, for example, hiring a \textbf{Great Coach} or cultivating \textbf{Great Athletes}, and hope for great achievements.
+It means that the committees can invest more in this certain sport/event, for example, hiring a \textbf{Great Coach} or cultivating \textbf{Great Athletes}, and hope for great achievements.\cite{jackson2014statistical}
 \section{Strength and Weakness}
 
 \subsection{Strength}
@@ -44,7 +44,7 @@ It means that the committees can invest more in this certain sport/event, for ex
 \subsection{Weakness}
 
 \begin{itemize}
-\item We choose specific values for some peculiar parameters, for instance, we assume the proportion of female athletes of the USA team in 2028. Those values may not be reasonable in reality.
+\item We choose specific values for some peculiar parameters, for instance, we assume the proportion of female athletes of the USA team in 2028. Results may changed a bit if the female ratio is different from our assumptions.
 
 \item Although we investigate a lot in the given data, the model is so complicated that need to be studied further with more than these data. For example, the population
 of a country will impact the number of potential athletes, and further influence the country's future performance in the Olympics.
@@ -53,11 +53,23 @@ of a country will impact the number of potential athletes, and further influence
 \end{itemize}
 
 \subsection{Further Discussions}
-\subsubsection{Possible Optimization}Due to lack of data, our model only use past data with few factors taken into account, such as year, sex and event, while neglecting other factors such as a country's population, GDP and willingness 
+\subsubsection{Possible Optimization}
+\begin{itemize}
+    \item Due to lack of data, our model only use past data with few factors taken into account, such as year, sex and event, while neglecting other factors such as a country's population, GDP and willingness 
 for medals. To be more accurate, we can add more data into our model.
 
-Also, we can adapt more nonlinear models, besides methods like \textbf{Random Forest}, and compare their results to be more precise on prediction.
-\subsubsection{Challenges in practical application}This model is potentially useful for country Olympic committees for arrangement strategies, but it only cares about data of performance, but training and taking part in the 
-Olympics is a complex system, countless factors such as money investment and training period need to be considered and balanced when diciding whether to invest in a certain event or not.
+    \item  Also, we can adapt more nonlinear models, besides methods like \textbf{Random Forest} , \textbf{XGBoost} , etc
+    , and compare their results to be more precise on prediction.
+ 
+    
+    \end{itemize}
 
-Thus, this model can be combined with data analysis on other factors to fully cover the real situation, and contribute to practical application.
+
+\subsubsection{Sensitivity Analysis : Challenges in practical application}
+Although results are seemingly reasonable, there're many difficulties in practical application:
+
+This model is potentially useful for country Olympic committees for arrangement strategies, and it only cares about data of performance, but training and taking part in the 
+Olympics is a complex system, countless factors such as money investment and training period need to be considered and balanced when deciding whether to invest in a certain event or not. Since it's a complex stimulation system, our model is very sensitive to the given data. If there are more factors taken in, the results may be completely changed or may be unpredictable.
+
+Thus, our model can only serve as a reference of prediction. There's reason why distinguished data analysis institutions always make their final forecast when the Olympics is approaching and current athletes
+scheduled to compete are known : Chaos caused by Complex System is impossible to find a completely analytical solution. 

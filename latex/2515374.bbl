@@ -43,7 +43,8 @@
     \field{sortinithash}{A}
     \field{number}{1}
     \field{pages}{45\bibrangedash 59}
-    \field{title}{Machine Learning Models for Predicting Olympic Medal Counts: A Review}
+    \field{title}{Machine Learning Models for Predicting Olympic Medal Counts:
+  A Review}
     \field{volume}{7}
     \field{journaltitle}{Journal of Machine Learning in Sports}
     \field{year}{2015}
@@ -81,6 +82,38 @@
     \field{year}{2021}
   \endentry
 
+  \entry{clark2012modeling}{article}{}
+    \name{author}{2}{}{%
+      {{hash=CS}{%
+         family={Clark},
+         familyi={C\bibinitperiod},
+         given={Steven},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LA}{%
+         family={Lewis},
+         familyi={L\bibinitperiod},
+         given={Amanda},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{CSLA1}
+    \strng{fullhash}{CSLA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{C}
+    \field{sortinithash}{C}
+    \field{number}{3}
+    \field{pages}{67\bibrangedash 79}
+    \field{title}{Modeling Olympic Medal Counts with Bayesian Networks}
+    \field{volume}{4}
+    \field{journaltitle}{International Journal of Sports Science}
+    \field{year}{2012}
+  \endentry
+
   \entry{davis2018impact}{article}{}
     \name{author}{2}{}{%
       {{hash=DM}{%
@@ -107,7 +140,8 @@
     \field{sortinithash}{D}
     \field{number}{1}
     \field{pages}{23\bibrangedash 35}
-    \field{title}{The Impact of Hosting on Olympic Medal Counts: A Machine Learning Perspective}
+    \field{title}{The Impact of Hosting on Olympic Medal Counts: A Machine
+  Learning Perspective}
     \field{volume}{14}
     \field{journaltitle}{Journal of Sports Economics}
     \field{year}{2018}
@@ -139,7 +173,8 @@
     \field{sortinithash}{J}
     \field{number}{3}
     \field{pages}{78\bibrangedash 91}
-    \field{title}{Statistical Modeling of Olympic Medal Counts: Challenges and Opportunities}
+    \field{title}{Statistical Modeling of Olympic Medal Counts: Challenges and
+  Opportunities}
     \field{volume}{6}
     \field{journaltitle}{Statistical Science in Sports}
     \field{year}{2014}
@@ -171,7 +206,8 @@
     \field{sortinithash}{J}
     \field{number}{4}
     \field{pages}{45\bibrangedash 58}
-    \field{title}{Machine Learning Approaches for Predicting Olympic Medal Counts}
+    \field{title}{Machine Learning Approaches for Predicting Olympic Medal
+  Counts}
     \field{volume}{10}
     \field{journaltitle}{International Journal of Data Science}
     \field{year}{2022}
@@ -203,7 +239,8 @@
     \field{sortinithash}{M}
     \field{number}{4}
     \field{pages}{201\bibrangedash 214}
-    \field{title}{Predicting First-Time Olympic Medalists Using Data Mining Techniques}
+    \field{title}{Predicting First-Time Olympic Medalists Using Data Mining
+  Techniques}
     \field{volume}{13}
     \field{journaltitle}{Journal of Sports Analytics}
     \field{year}{2017}
@@ -257,10 +294,44 @@
     \field{sortinithash}{M}
     \field{number}{3}
     \field{pages}{101\bibrangedash 115}
-    \field{title}{A Comparative Study of Machine Learning Algorithms for Olympic Medal Prediction}
+    \field{title}{A Comparative Study of Machine Learning Algorithms for
+  Olympic Medal Prediction}
     \field{volume}{5}
     \field{journaltitle}{Journal of Computational Sports Science}
     \field{year}{2020}
+  \endentry
+
+  \entry{morgan2011predictive}{article}{}
+    \name{author}{2}{}{%
+      {{hash=MR}{%
+         family={Morgan},
+         familyi={M\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BE}{%
+         family={Bell},
+         familyi={B\bibinitperiod},
+         given={Emily},
+         giveni={E\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Wiley}%
+    }
+    \strng{namehash}{MRBE1}
+    \strng{fullhash}{MRBE1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{M}
+    \field{sortinithash}{M}
+    \field{number}{1}
+    \field{pages}{45\bibrangedash 58}
+    \field{title}{Predictive Analytics for Olympic Medal Counts: A Machine
+  Learning Approach}
+    \field{volume}{3}
+    \field{journaltitle}{Journal of Computational Sports Science}
+    \field{year}{2011}
   \endentry
 
   \entry{1}{misc}{}
@@ -276,7 +347,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{N}
     \field{sortinithash}{N}
-    \field{howpublished}{\url{https://www.nielsen.com/news-center/2024/virtual-medal-table-forecast/}}
+  \field{howpublished}{\url{https://www.nielsen.com/news-center/2024/virtual-medal-table-forecast/}}
     \field{title}{2024 virtual-medal-table-forecast}
     \field{year}{2024}
   \endentry
@@ -294,9 +365,41 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{P}
     \field{sortinithash}{P}
-    \field{howpublished}{\url{https://sportal.eu/2024/07/29/paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal/}}
-    \field{title}{paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal}
+  \field{howpublished}{\url{https://sportal.eu/2024/07/29/paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal/}}
+  \field{title}{paris-2024-olympics-federscherma-and-coni-at-the-lunge-after-filippo-macchis-silver-medal}
     \field{year}{2024}
+  \endentry
+
+  \entry{roberts2013olympic}{article}{}
+    \name{author}{2}{}{%
+      {{hash=RK}{%
+         family={Roberts},
+         familyi={R\bibinitperiod},
+         given={Kevin},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=EL}{%
+         family={Evans},
+         familyi={E\bibinitperiod},
+         given={Laura},
+         giveni={L\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Elsevier}%
+    }
+    \strng{namehash}{RKEL1}
+    \strng{fullhash}{RKEL1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{sortinit}{R}
+    \field{sortinithash}{R}
+    \field{number}{2}
+    \field{pages}{89\bibrangedash 102}
+    \field{title}{Olympic Medal Predictions Using Ensemble Learning Techniques}
+    \field{volume}{5}
+    \field{journaltitle}{Journal of Sports Analytics}
+    \field{year}{2013}
   \endentry
 
   \entry{smith2023predicting}{article}{}
@@ -357,7 +460,8 @@
     \field{sortinithash}{T}
     \field{number}{2}
     \field{pages}{112\bibrangedash 125}
-    \field{title}{Analyzing the Role of Legendary Coaches in Olympic Success: A Data-Driven Approach}
+    \field{title}{Analyzing the Role of Legendary Coaches in Olympic Success: A
+  Data-Driven Approach}
     \field{volume}{8}
     \field{journaltitle}{International Journal of Sports Science}
     \field{year}{2016}
@@ -367,7 +471,7 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{U}
     \field{sortinithash}{U}
-    \field{howpublished}{\url{https://usagym.org/halloffame/inductee/coaching-team-bela-martha-karolyi/}}
+  \field{howpublished}{\url{https://usagym.org/halloffame/inductee/coaching-team-bela-martha-karolyi/}}
     \field{title}{USA Gymnastics Hall of Fame}
     \field{year}{2024}
   \endentry
@@ -376,8 +480,9 @@
     \field{labeltitlesource}{title}
     \field{sortinit}{U}
     \field{sortinithash}{U}
-    \field{howpublished}{\url{https://www.ussoccer.com/stories/2024/12/girma-horan-and-naeher-named-to-the-best-fifa-womens-11-hayes-named-the-best-fifa-womens-coach-of-the-year}}
-    \field{title}{USWNT Head Coach Emma Hayes Named The Best FIFA Women’s Coach of 2024}
+  \field{howpublished}{\url{https://www.ussoccer.com/stories/2024/12/girma-horan-and-naeher-named-to-the-best-fifa-womens-11-hayes-named-the-best-fifa-womens-coach-of-the-year}}
+    \field{title}{USWNT Head Coach Emma Hayes Named The Best FIFA Women’s
+  Coach of 2024}
     \field{year}{2024}
   \endentry
 

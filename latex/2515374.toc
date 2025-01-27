@@ -29,7 +29,7 @@
 \contentsline {subsection}{\numberline {9.2}Weakness}{20}{subsection.9.2}%
 \contentsline {subsection}{\numberline {9.3}Further Discussions}{20}{subsection.9.3}%
 \contentsline {subsubsection}{\numberline {9.3.1}Possible Optimization}{20}{subsubsection.9.3.1}%
-\contentsline {subsubsection}{\numberline {9.3.2}Challenges in practical application}{20}{subsubsection.9.3.2}%
+\contentsline {subsubsection}{\numberline {9.3.2}Sensitivity Analysis : Challenges in practical application}{20}{subsubsection.9.3.2}%
 \contentsline {section}{Appendices}{22}{section*.20}%
 \contentsline {section}{Appendix \numberline {A}Core Code for Predicting 2028 Olympics Medal}{22}{appendix.a.A}%
 \contentsline {section}{Appendix \numberline {B}Core Code for Great Athletes and Key Events}{23}{appendix.a.B}%

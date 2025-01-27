@@ -6,9 +6,9 @@ More than 60 countries have still yet to win an Olympic medal.
 We are required to predict how many countries will win their first medal in the 2028 Los Angeles Olympics, their probability of winning a medal, and their winning rate compared to each other.
 \subsection{Model Establishment}
 
-To establish the model( Codes are in the appendix ):
+To establish the model ( Codes are in the appendix ) :
 
-Firstly,we filter out those countries that won medals in 1896.Then we create a feature set for each country, encode the country name, and use the countries' first medal winning data splited as the training set and testing set to train the model using Random Forest Classifier.
+Firstly, we filter out those countries that won medals in 1896.Then we create a feature set for each country, encode the country name, and use the countries' first medal winning data splited as the training set and testing set to train the model using Random Forest Classifier.
 Secondly, we predict the probability of `no medal'country winning a medal in the 2028 Los Angeles Olympics.
 Finally, we calculate the winning rate of those country and compare them.
 
@@ -32,7 +32,7 @@ The importance of each feature can be evaluated by measuring the decrease in imp
 
 $$\text{I}_{f}(j) = \sum_{t=1}^{N} \sum_{s \in \text{splits}(t)} \Delta \text{I}_{m}(s,j)  $$
 
-where $\Delta$ stands for decrease and $\text{splits}(t)$ are the splits in tree $t$.
+where $\Delta$ stands for decrease and $\text{splits}(t)$ are the splits in tree $t$.\cite{martin2017predicting}
 
 \subsection{Result Analysis}
 \begin{center}

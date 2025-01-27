@@ -4,13 +4,13 @@ Since we want to predict future medal list on the basis of past data, we merge t
 We combine the data with the same \textbf{Year} and \textbf{NOC} together.
 
 We use \textbf{Correlation Coefficient Matrix} and \textbf{Principal Component Analysis}, split the data
-into training and testing parts, and use \textbf{Extreme Gradient Boosting methods} to train features
+into training and testing parts, and use \textbf{eXtreme Gradient Boosting} method to train features
 and target matrix.
 
 We also use \textbf{KS test} to ensure the effectiveness of the model.After the model is established, we use it to predict the 2028 and 2032 Olympics.
 
 What's important is that we add the factor of whether being a host city/country or not in to the training model so that the final result can take this factor into consideration. For example,
-in the coming LA Olympics, the USA is likely to gain more medals due to the \textbf{"hosting effect"}.
+in the coming LA Olympics, the USA is likely to gain more medals due to the \textbf{"hosting effect"}.\cite{davis2018impact}
 
 \subsection{Result Analysis}
 
@@ -71,7 +71,7 @@ where $\Omega(f_t)$ is the model complexity of the t-th tree, which can be expre
     $\Omega(f_t) = \gamma T + \frac{1}{2} \lambda \sum_{j=1}^T w_j^2$
 \end{center}
 
-where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, and $\gamma$ and $\lambda$ are regularization parameters.
+where $T$ is the number of nodes in the tree, $w_j$ is the weight of each node, and $\gamma$ and $\lambda$ are regularization parameters.\cite{smith2023predicting}
 
 \subsection{Prediction of 2028 Los Angeles Olympics}
 \begin{table}[htbp]

@@ -3,12 +3,12 @@
 \section{Task IV : Great Coach Effect}
 
 \subsection{Problem Analysis}
-It's not easy for athletes to serve in teams of different nations, but coaches can
+It's not easy for athletes to serve in teams of different nations, but coaches can\cite{thompson2016analyzing}
 
 Two possible examples of this include Lang Ping,
 who coached volleyball teams from both the U.S. and China to championships, and the
 sometimes-controversial gymnastics coach, Béla Károlyi, who coached Romania and
-then the U.S. women's teams with great success. 
+then the U.S. women's teams with great success. \cite{2,3}
 
 Bela and Marta instructed the US gym team in the following years:
 
@@ -27,12 +27,12 @@ Bela and Marta instructed the US gym team in the following years:
 Since there's too little data of Lang Ping, we decide to use Bela and Marta as an example to train data. We use comprehensive methods developed by previous tasks and establish the last part of our \textbf{`PRE'} model : \textbf{Legendary Index} .
 
 To find out coaches influence on some achievements of certain countries in the history, we define \textbf{Legendary Index}, representing the greatness of a country's achievement during a certain period.
-Then, by analyzing those with a high \textbf{Legendary Index}, we can find out the impact of \textbf{Great Coaches}
+Then, by analyzing those with a high \textbf{Legendary Index}, we can find out the impact of \textbf{Great Coaches}.
 
 \subsection{Model Establishment : Legendary Index}
 We rearrange the data by Sport, NOC, and Sex. 
 
-Since we do not have specific information on which events or disciplines Bela and Marta coached, we only consider sports, gender, and country. We assign a value of 1 if a great coach is coaching and 0 if not.Then we split the data into training, testing dataset and train our model by year according to specific parameters.Finally, We use the model to calculate Legendary Index to indicate greatness.
+Since we do not have specific information on which events or disciplines Bela and Marta coached, we only consider sports, gender, and country. We assign a value of 1 if a great coach is coaching and 0 if not.Then we split the data into training, testing dataset and train our model by year according to specific parameters.Finally, We use the model to calculate Legendary Index to indicate greatness.\cite{johnson2022machine}
 
 \begin{lstlisting}[caption=Part of the Model]
 from sklearn.model_selection import train_test_split
@@ -89,7 +89,7 @@ legendary_coach_results = pd.DataFrame()
 
 Part of the calculation is in \textbf{Figure \ref{fig:legendary_index_detailed}}.
 
-This is the real calculation formula behind the code:
+This is the real calculation formula behind the code\cite{miller2020comparative}:
 \begin{center}
 $ x = [\textit{`Year'}, \textit{`Total'}, \textit{`Gold'}, \textit{`Silver'}, \textit{`Bronze'}, \textit{`No medal'}]$
 
@@ -140,15 +140,15 @@ Besides Lang Ping, other great achievements are also detected. Although we don't
 
 Shown in \textbf{Figure \ref{fig:lang_ping_combined}}, Chinese Table Tennis and Gymnastics are selected as the most famous examples. 1996, 2000, 2008 and 2020 are great years for Chinese Male Table Tennis team, while 2024 is not although they got the gold medal.
 
-We've even found interesting data of controversial results caused by the penalty awarded by referee.In 2024, Italy fencing is very close to greatness, and they've complained about the referee's decision.[4]
+We've even found interesting data of controversial results caused by the penalty awarded by referee.In 2024, Italy fencing is very close to greatness, and they've complained about the referee's decision.\cite{4}
 
-Coach of 2024 US female football team Emma Hayes is considered as great coach according to our model.She was named The Best FIFA Women's Coach of 2024.[5]
+Coach of 2024 US female football team Emma Hayes is considered as great coach according to our model.She was named The Best FIFA Women's Coach of 2024.\cite{5}
 
 \subsection{Three Countries to invest in `great' coach}
 
 From the data, three countries will benefit a lot from investing a 'great' coach.
 
-China Tennis Male and Female 2024 : With rather great achievement, Chinese tennis team is close to greatness.However, it's not enough compared to it's past glory.Maybe changing the current coach is a good choice.
+China Table Tennis Male 2024 : With rather great achievement, Chinese tennis team is close to greatness.However, it's not enough compared to it's past glory.Maybe changing the current coach is a good choice.
 
 Korea Judo Male and Female 2024 : As an key event of Korea, it's not enough for them to stop their step. A great coach may lead them to greated achievements.
 

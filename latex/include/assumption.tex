@@ -82,9 +82,9 @@ Team are renamed to Country in the athletes data so that there won't be Germany-
 \end{itemize}
 
 \begin{lstlisting}[caption=Data Splitting]
-    data.fillna(0, inplace=True)
-    data.drop_duplicates(inplace=True)
-    athletes.rename(columns={'Team': 'Country'}, inplace=True)
+    # Split Host in hosts.csv into City and Country
+    hosts[['City', 'NOC']] = hosts['Host'].str.split(',', expand=True)
+    hosts['NOC'] = hosts['NOC'].str.strip()
     \end{lstlisting}
 
     \begin{itemize}
